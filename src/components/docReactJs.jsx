@@ -1,6 +1,19 @@
 import reactBlanco from "../img/reactBlanco.png"
 import { Link } from "react-router-dom";
 
+// Librerias
+let librerias = [
+    { nombre: "Fechas y calendarios", direccion: "/fechas-calendarios" },
+    { nombre: "Gráficas", direccion: "/graficas" },
+    { nombre: "Librerias UI", direccion: "" },
+    { nombre: "Alertas", direccion: "" },
+    { nombre: "Validación de formularios", direccion: "" },
+    { nombre: "Animaciones", direccion: "" },
+    { nombre: "PDF", direccion: "" },
+    // {nombre: "", direccion: ""},
+    // {nombre: "", direccion: ""},
+]
+
 const DocReactJs = () => {
     return (
         <div className="container">
@@ -10,6 +23,7 @@ const DocReactJs = () => {
             </div>
             <br />
 
+            {/* Documentacion oficial */}
             <h3>Documentación oficial</h3>
             <hr />
             <div className="card text-bg-light mb-3" style={{ width: "540px" }}>
@@ -20,72 +34,37 @@ const DocReactJs = () => {
                     <p className="card-text">Crea tus propios componentes de React como Thumbnail, LikeButton, y Video. </p>
                     <p className="card-text">Luego combínalos para formar pantallas, páginas y aplicaciones.</p>
                     <hr />
-                    
-                    <button className="btn btn-outline-dark float-end">
+
+                    <button className="btn btn-outline-dark float-end" onClick={() => window.location.replace("https://es.react.dev/")}>
                         Ir a la web
                     </button>
                 </div>
             </div>
 
+            {/* Librerias */}
             <br />
             <h3>Librerías</h3>
             <hr />
 
             <div class="container text-center">
                 <div class="row">
-                    <div class="col">
-                        <div className="alert alert-light" role="alert">
-                            <Link to="/fechas-calendarios"  style={{textDecoration: "none", color: "black"}}>
-                                Fechas y calendarios
-                            </Link>
+                    {librerias.map((item, id) => (
+                        <div class="col-3" key={id}>
+                            <div className="alert alert-light" role="alert">
+                                <Link to={item.direccion} style={{ textDecoration: "none", color: "black" }}>
+                                    {item.nombre}
+                                </Link>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col">
-                    <div className="alert alert-light" role="alert">
-                            Graficas
-                        </div>
-                    </div>
-                    <div class="col">
-                    <div className="alert alert-light" role="alert">
-                            Librerias UI
-                        </div>
-                    </div>
-                    <div class="col">
-                    <div className="alert alert-light" role="alert">
-                            Alertas
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col">
-                        <div className="alert alert-light" role="alert">
-                            Validacion de formularios
-                        </div>
-                    </div>
-                    <div class="col">
-                    <div className="alert alert-light" role="alert">
-                           Animaciones
-                        </div>
-                    </div>
-                    <div class="col">
-                    <div className="alert alert-light" role="alert">
-                            PDF
-                        </div>
-                    </div>
-                    <div class="col">
-                    {/* <div className="alert alert-light" role="alert">
-                            Alertas
-                        </div> */}
-                    </div>
+                    ))}
                 </div>
             </div>
-           
-            <br/>
+
+            <br />
             <h3>Cursos</h3>
             <hr />
 
-            <br/>
+            <br />
             <h3>React.py</h3>
             <hr />
         </div>
