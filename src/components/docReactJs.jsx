@@ -1,4 +1,6 @@
 import reactBlanco from "../img/reactBlanco.png"
+import { Link } from "react-router-dom";
+
 const DocReactJs = () => {
     return (
         <div className="container">
@@ -18,6 +20,7 @@ const DocReactJs = () => {
                     <p className="card-text">Crea tus propios componentes de React como Thumbnail, LikeButton, y Video. </p>
                     <p className="card-text">Luego combínalos para formar pantallas, páginas y aplicaciones.</p>
                     <hr />
+                    
                     <button className="btn btn-outline-dark float-end">
                         Ir a la web
                     </button>
@@ -25,14 +28,16 @@ const DocReactJs = () => {
             </div>
 
             <br />
-            <h3>Librerias</h3>
+            <h3>Librerías</h3>
             <hr />
 
             <div class="container text-center">
                 <div class="row">
                     <div class="col">
                         <div className="alert alert-light" role="alert">
-                            Fechas y calendarios
+                            <Link to="/fechas-calendarios"  style={{textDecoration: "none", color: "black"}}>
+                                Fechas y calendarios
+                            </Link>
                         </div>
                     </div>
                     <div class="col">
@@ -75,7 +80,14 @@ const DocReactJs = () => {
                     </div>
                 </div>
             </div>
+           
             <br/>
+            <h3>Cursos</h3>
+            <hr />
+
+            <br/>
+            <h3>React.py</h3>
+            <hr />
         </div>
 
 
