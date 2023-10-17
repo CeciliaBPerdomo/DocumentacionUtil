@@ -1,5 +1,6 @@
 import reactBlanco from "../img/reactBlanco.png"
 import { Link } from "react-router-dom";
+import Cursos from "../pages/docReactJS/Cursos.jsx";
 
 // Librerias
 let librerias = [
@@ -46,10 +47,10 @@ const DocReactJs = () => {
             <h3>Librerías</h3>
             <hr />
 
-            <div class="container text-center">
-                <div class="row">
+            <div className="container text-center">
+                <div className="row">
                     {librerias.map((item, id) => (
-                        <div class="col-3" key={id}>
+                        <div className="col-3" key={id}>
                             <div className="alert alert-light" role="alert">
                                 <Link to={item.direccion} style={{ textDecoration: "none", color: "black" }}>
                                     {item.nombre}
@@ -63,6 +64,7 @@ const DocReactJs = () => {
             <br />
             <h3>Cursos</h3>
             <hr />
+            <Cursos />
 
             <br />
             <h3>React.py</h3>
