@@ -30,10 +30,9 @@ export default function Cursos() {
                 <div className="row">
                     {cursos.map((item, id) => (
                         <div className="col-4" key={id}>
-                            <div className="alert alert-light" role="alert" style={{height: "150px", color: "black"}}>
-                                  <p>  {item.descripcion} </p>
+                            <div className="alert alert-light" role="alert" style={{height: "55px", color: "black"}}>
                                 <Link to={item.web} style={{ textDecoration: "none", color: "black" }}>
-                                    Web: {item.web}
+                                  <p>  {item.descripcion} </p>
                                 </Link>
                             </div>
                         </div>

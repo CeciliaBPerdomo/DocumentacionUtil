@@ -8,6 +8,8 @@ import Home from "./pages/home.jsx";
 import DocReactJs from "./components/docReactJs.jsx";
 import FechasyCalendarios from "./pages/docReactJS/FechasyCalendarios.jsx";
 import Graficas from "./pages/docReactJS/Graficas.jsx";
+import ReactPythonDocOficial from "./pages/docReactJS/ReactPythonDocOficial.jsx";
+import UILibraries from "./pages/docReactJS/UILibraries";
 
 import NoPage from "./pages/noPage";
 
@@ -23,6 +25,10 @@ function App() {
             <Route path="docreactjs" element={<DocReactJs />} />
             <Route path="fechas-calendarios" element={<FechasyCalendarios />} />
             <Route path="graficas" element={<Graficas />} />
+            <Route path="react-python" element={<ReactPythonDocOficial />} />
+            <Route path="uiLibraries" element={<UILibraries />} />
+
+            
 
             <Route path="*" element={<NoPage />} />
           </Route>

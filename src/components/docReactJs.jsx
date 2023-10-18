@@ -1,19 +1,10 @@
 import reactBlanco from "../img/reactBlanco.png"
-import { Link } from "react-router-dom";
-import Cursos from "../pages/docReactJS/Cursos.jsx";
+// import { Link } from "react-router-dom";
 
-// Librerias
-let librerias = [
-    { nombre: "Fechas y calendarios", direccion: "/fechas-calendarios" },
-    { nombre: "Gráficas", direccion: "/graficas" },
-    { nombre: "Librerias UI", direccion: "" },
-    { nombre: "Alertas", direccion: "" },
-    { nombre: "Validación de formularios", direccion: "" },
-    { nombre: "Animaciones", direccion: "" },
-    { nombre: "PDF", direccion: "" },
-    // {nombre: "", direccion: ""},
-    // {nombre: "", direccion: ""},
-]
+// Componentes
+import Cursos from "../pages/docReactJS/Cursos.jsx";
+import ReactPython from "../pages/docReactJS/ReactPython.jsx";
+import Librerias from "../pages/docReactJS/Librerias.jsx";
 
 const DocReactJs = () => {
     return (
@@ -46,29 +37,21 @@ const DocReactJs = () => {
             <br />
             <h3>Librerías</h3>
             <hr />
-
-            <div className="container text-center">
-                <div className="row">
-                    {librerias.map((item, id) => (
-                        <div className="col-3" key={id}>
-                            <div className="alert alert-light" role="alert">
-                                <Link to={item.direccion} style={{ textDecoration: "none", color: "black" }}>
-                                    {item.nombre}
-                                </Link>
-                            </div>
-                        </div>
-                    ))}
-                </div>
-            </div>
-
+            <Librerias />
+           
+            {/* Cursos */}
             <br />
             <h3>Cursos</h3>
             <hr />
             <Cursos />
 
+            {/* React.py */}
             <br />
             <h3>React.py</h3>
             <hr />
+            <ReactPython />
+
+            <br />
         </div>
 
 
