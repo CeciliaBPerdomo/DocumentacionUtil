@@ -5,6 +5,7 @@ import reactBlanco from "../img/reactBlanco.png"
 import Cursos from "../pages/docReactJS/Cursos.jsx";
 import ReactPython from "../pages/docReactJS/ReactPython.jsx";
 import Librerias from "../pages/docReactJS/Librerias.jsx";
+import ReactRouter from "../pages/docReactJS/ReactRouter.jsx";
 
 const DocReactJs = () => {
     return (
@@ -33,6 +34,11 @@ const DocReactJs = () => {
                 </div>
             </div>
 
+            <br />
+            <h3>React Router</h3>
+            <hr />
+            < ReactRouter />
+
             {/* Librerias */}
             <br />
             <h3>Librerías</h3>
@@ -50,8 +56,6 @@ const DocReactJs = () => {
             <h3>React.py</h3>
             <hr />
             <ReactPython />
-
-            <br />
         </div>
 
 

@@ -12,6 +12,9 @@ import ReactPythonDocOficial from "./pages/docReactJS/ReactPythonDocOficial.jsx"
 import UILibraries from "./pages/docReactJS/UILibraries";
 
 import NoPage from "./pages/noPage";
+import Alertas from "./pages/docReactJS/Alertas";
+import ReactRouterDocOficial from "./pages/docReactJS/ReactRouterDocOficial";
+import ValidacionFormularios from "./pages/docReactJS/ValidacionFormularios";
 
 function App() {
   return (
@@ -27,8 +30,9 @@ function App() {
             <Route path="graficas" element={<Graficas />} />
             <Route path="react-python" element={<ReactPythonDocOficial />} />
             <Route path="uiLibraries" element={<UILibraries />} />
-
-            
+            <Route path="alertas" element={<Alertas />} />
+            <Route path="react-router" element={<ReactRouterDocOficial />} />            
+            <Route path="validacion_formularios" element={<ValidacionFormularios />} />            
 
             <Route path="*" element={<NoPage />} />
           </Route>

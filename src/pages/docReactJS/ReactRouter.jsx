@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-function ReactPython() {
+function ReactRouter() {
     let info = [
         {   nombre: "Documentación oficial", 
-            direccion: "/react-python"
+            direccion: "/react-router"
         }
     ]
 
@@ -14,7 +14,7 @@ function ReactPython() {
                 <div className="row">
                     {info.map((item, id) => (
                         <div className="col-3" key={id}>
-                            <div className="alert alert-light" role="alert">
+                            <div className="alert alert-success" role="alert">
                                 <Link to={item.direccion} style={{ textDecoration: "none", color: "black" }}>
                                     {item.nombre}
                                 </Link>
@@ -27,4 +27,5 @@ function ReactPython() {
   )
 }
 
-export default ReactPython
+
+export default ReactRouter

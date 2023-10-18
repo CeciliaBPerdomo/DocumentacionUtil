@@ -8,8 +8,8 @@ function Librerias() {
         { nombre: "Fechas y calendarios", direccion: "/fechas-calendarios" },
         { nombre: "Gráficas", direccion: "/graficas" },
         { nombre: "Librerias UI", direccion: "/uiLibraries" },
-        { nombre: "Alertas", direccion: "/" },
-        { nombre: "Validación de formularios", direccion: "/" },
+        { nombre: "Alertas", direccion: "/alertas" },
+        { nombre: "Validación de formularios", direccion: "/validacion_formularios" },
         { nombre: "Animaciones", direccion: "/" },
         { nombre: "PDF", direccion: "/" },
         // {nombre: "", direccion: ""},
@@ -22,7 +22,7 @@ function Librerias() {
                 <div className="row">
                     {librerias.map((item, id) => (
                         <div className="col-3" key={id}>
-                            <div className="alert alert-success" role="alert">
+                            <div className="alert alert-light" role="alert">
                                 <Link to={item.direccion} style={{ textDecoration: "none", color: "black" }}>
                                     {item.nombre}
                                 </Link>
