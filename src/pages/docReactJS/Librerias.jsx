@@ -10,8 +10,8 @@ function Librerias() {
         { nombre: "Librerias UI", direccion: "/uiLibraries" },
         { nombre: "Alertas", direccion: "/alertas" },
         { nombre: "Validación de formularios", direccion: "/validacion_formularios" },
-        { nombre: "Animaciones", direccion: "/" },
-        { nombre: "PDF", direccion: "/" },
+        { nombre: "Animaciones", direccion: "/animaciones" },
+        { nombre: "PDF", direccion: "/pdf" },
         // {nombre: "", direccion: ""},
         // {nombre: "", direccion: ""},
     ]

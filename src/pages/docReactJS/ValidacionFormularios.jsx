@@ -19,6 +19,14 @@ function ValidacionFormularios() {
           git: "https://github.com/react-hook-form/react-hook-form", 
           color: "success"
         },
+
+        {
+            libreria: "Password",
+            web: "https://melvingeorge.me/blog/show-or-hide-password-ability-reactjs",
+            descripcion: "How to make a show or hide password toggle button in Reactjs?",
+            git: "https://github.com/",
+            color: "danger"
+          },
     ]
 
  const abrirLink = (direccion) => {

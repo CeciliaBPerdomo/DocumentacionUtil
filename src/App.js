@@ -15,6 +15,8 @@ import NoPage from "./pages/noPage";
 import Alertas from "./pages/docReactJS/Alertas";
 import ReactRouterDocOficial from "./pages/docReactJS/ReactRouterDocOficial";
 import ValidacionFormularios from "./pages/docReactJS/ValidacionFormularios";
+import Animaciones from "./pages/docReactJS/Animaciones";
+import PDF from "./pages/docReactJS/PDF";
 
 function App() {
   return (
@@ -33,6 +35,8 @@ function App() {
             <Route path="alertas" element={<Alertas />} />
             <Route path="react-router" element={<ReactRouterDocOficial />} />            
             <Route path="validacion_formularios" element={<ValidacionFormularios />} />            
+            <Route path="animaciones" element={<Animaciones />} />            
+            <Route path="pdf" element={<PDF />} />            
 
             <Route path="*" element={<NoPage />} />
           </Route>
