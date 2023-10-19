@@ -13,7 +13,7 @@ const Home = () => {
             tema: "HTML",
             imagen: logoHTML,
             descripcion: "Cursos",
-            info: "/"
+            info: "/docHTML"
         },
 
         {
@@ -60,7 +60,7 @@ const Home = () => {
                     {tema.map((item, id) => (
                         <div className="col" key={id} style={{marginBottom: "35px"}}>
                             <div className="card" style={{ width: "18rem" }}>
-                                <img src={item.imagen} className="card-img-top" alt="HTML" />
+                                <img src={item.imagen} className="card-img-top" alt={item.tema} />
                                 <div className="card-body" style={{ height: "85px" }}>
                                     <h5 className="card-title">{item.tema}</h5>
                                     <p className="card-text">{item.descripcion}</p>
