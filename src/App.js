@@ -20,6 +20,15 @@ import PDF from "./pages/docReactJS/PDF";
 // HTML 
 import DOCHTML from "./components/docHTML.jsx";
 
+// SCRUM
+import DOCScrum from "./components/DOCScrum";
+
+// CSS
+import DOCCSS from "./components/DOCCSS";
+import Separaciones from "./pages/docCSS/Separaciones";
+import AnimacionesCSS from "./pages/docCSS/Animaciones.jsx"
+import Games from "./pages/docCSS/Games";
+
 function App() {
   return (
     <div>
@@ -43,6 +52,17 @@ function App() {
             {/* HTML*/}
             <Route path="docHTML" element={<DOCHTML />} />        
 
+            {/* SCRUM */}
+            <Route path="docScrum" element={<DOCScrum />} /> 
+
+            {/* CSS */}
+            <Route path="doc_CSS" element={<DOCCSS />} /> 
+            <Route path="separaciones" element={<Separaciones />} /> 
+            <Route path="animaciones_CSS" element={<AnimacionesCSS />} /> 
+            <Route path="games_CSS" element={<Games />} /> 
+
+
+            {/* Error */}
             <Route path="*" element={<NoPage />} />
           </Route>
         </Routes>

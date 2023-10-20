@@ -4,6 +4,7 @@ import logoHTML from "../img/logoHTML.jpg"
 import logoBoostrap from "../img/logoBootstrap.jpg"
 import logoCSS from "../img/logoCSS.jpg"
 import logoJavaScript from "../img/logoJavaScript.jpg"
+import logoScrum from "../img/logoScrum.jpeg"
 
 // Tamano imagenes: 2560 x 1440 px
 
@@ -20,7 +21,7 @@ const Home = () => {
             tema: "CSS",
             imagen: logoCSS,
             descripcion: "Cursos, separadores, juegos, animaciones y challenges",
-            info: "/"
+            info: "/doc_CSS"
         },
 
         {
@@ -42,6 +43,13 @@ const Home = () => {
             imagen: logoReact,
             descripcion: "Documentación útil, cursos, librerias, challenges",
             info: "/docreactjs"
+        },
+
+        {
+            tema: "Scrum y metodológias ágiles",
+            imagen: logoScrum,
+            descripcion: "Documentación útil, certificaciones",
+            info: "/docScrum"
         },
 
         // { 

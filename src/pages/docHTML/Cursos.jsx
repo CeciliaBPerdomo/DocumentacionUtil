@@ -14,7 +14,7 @@ function Cursos() {
         },
 
         {
-            "descripcion": "Curso de HTML y CSS",
+            "descripcion": "Video-Cursos: Curso de HTML y CSS",
             "web": "https://videocursos.co/curso-de-html-y-css/"
         },
 
