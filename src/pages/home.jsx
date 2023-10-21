@@ -5,11 +5,19 @@ import logoBoostrap from "../img/logoBootstrap.jpg"
 import logoCSS from "../img/logoCSS.jpg"
 import logoJavaScript from "../img/logoJavaScript.jpg"
 import logoScrum from "../img/logoScrum.jpeg"
+import logoUXUI from "../img/logoUXUI.png"
+import logoVue from "../img/logoVue.jpeg"
 
 // Tamano imagenes: 2560 x 1440 px
 
 const Home = () => {
     let tema = [
+        {
+            tema: "Diseño UX/UI",
+            imagen: logoUXUI,
+            descripcion: "Ideas, Prototipos, Iconos, Colores, Apps, News",
+            info: "/"
+        },
         {
             tema: "HTML",
             imagen: logoHTML,
@@ -46,7 +54,14 @@ const Home = () => {
         },
 
         {
-            tema: "Scrum y metodológias ágiles",
+            tema: "Vue.js",
+            imagen: logoVue,
+            descripcion: "Documentación útil, cursos, librerias, challenges",
+            info: "/"
+        },
+
+        {
+            tema: "Scrum y metodologías ágiles",
             imagen: logoScrum,
             descripcion: "Documentación útil, certificaciones",
             info: "/docScrum"
