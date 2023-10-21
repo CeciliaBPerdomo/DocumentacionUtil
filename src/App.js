@@ -29,6 +29,10 @@ import Separaciones from "./pages/docCSS/Separaciones";
 import AnimacionesCSS from "./pages/docCSS/Animaciones.jsx"
 import Games from "./pages/docCSS/Games";
 
+//UX / UI
+import UXUI from "./components/UXUI";
+import Colores from "./pages/docUXUI/Colores";
+
 function App() {
   return (
     <div>
@@ -60,6 +64,11 @@ function App() {
             <Route path="separaciones" element={<Separaciones />} /> 
             <Route path="animaciones_CSS" element={<AnimacionesCSS />} /> 
             <Route path="games_CSS" element={<Games />} /> 
+
+            {/* UX / UI  */}
+            <Route path="ux_ui" element={<UXUI />} /> 
+            <Route path="colores" element={<Colores />} /> 
+
 
 
             {/* Error */}

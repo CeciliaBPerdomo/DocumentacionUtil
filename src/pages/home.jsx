@@ -16,7 +16,7 @@ const Home = () => {
             tema: "Diseño UX/UI",
             imagen: logoUXUI,
             descripcion: "Ideas, Prototipos, Iconos, Colores, Apps, News",
-            info: "/"
+            info: "/ux_ui"
         },
         {
             tema: "HTML",
