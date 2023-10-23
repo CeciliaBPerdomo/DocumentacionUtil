@@ -6,13 +6,13 @@ function UXUI() {
     let info = [
         {
             descripcion: "UX Ideas",
-            ruta: "/",
+            ruta: "/ux_ideas",
             color: "light"
         },
 
         {
             descripcion: "UI Ideas",
-            ruta: "/",
+            ruta: "/ui_ideas",
             color: "light"
         },
 
@@ -35,7 +35,7 @@ function UXUI() {
         },
 
         {
-            descripcion: "Colores & Tipografía",
+            descripcion: "Colores, tipografía & patrones",
             ruta: "/colores",
             color: "success"
         },

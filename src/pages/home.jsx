@@ -7,6 +7,9 @@ import logoJavaScript from "../img/logoJavaScript.jpg"
 import logoScrum from "../img/logoScrum.jpeg"
 import logoUXUI from "../img/logoUXUI.png"
 import logoVue from "../img/logoVue.jpeg"
+import caratula from "../img/caratula.png"
+
+import Footer from "./Footer";
 
 // Tamano imagenes: 2560 x 1440 px
 
@@ -79,9 +82,14 @@ const Home = () => {
         <>
             <br />
             <div className="container text-center">
+                <div>
+                    <img src={caratula} alt="Documentación útil" style={{ width: "45%" }} />
+                    <hr />
+                </div>
+
                 <div className="row">
                     {tema.map((item, id) => (
-                        <div className="col" key={id} style={{marginBottom: "35px"}}>
+                        <div className="col" key={id} style={{ marginBottom: "35px" }}>
                             <div className="card" style={{ width: "18rem" }}>
                                 <img src={item.imagen} className="card-img-top" alt={item.tema} />
                                 <div className="card-body" style={{ height: "85px" }}>
@@ -100,6 +108,8 @@ const Home = () => {
                         </div>
                     ))}
                 </div>
+
+                <Footer />
             </div>
         </>
     )

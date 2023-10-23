@@ -32,6 +32,8 @@ import Games from "./pages/docCSS/Games";
 //UX / UI
 import UXUI from "./components/UXUI";
 import Colores from "./pages/docUXUI/Colores";
+import UXIdeas from "./pages/docUXUI/UXIdeas";
+import UIIdeas from "./pages/docUXUI/UIIdeas";
 
 function App() {
   return (
@@ -68,8 +70,8 @@ function App() {
             {/* UX / UI  */}
             <Route path="ux_ui" element={<UXUI />} /> 
             <Route path="colores" element={<Colores />} /> 
-
-
+            <Route path="ux_ideas" element={<UXIdeas />} /> 
+            <Route path="ui_ideas" element={<UIIdeas />} /> 
 
             {/* Error */}
             <Route path="*" element={<NoPage />} />

@@ -6,20 +6,33 @@ function Documentacion() {
         {
             descripcion: "Principios del manifiesto ágil.",
             web: "https://agilemanifesto.org/iso/es/principles.html",
-            color: "danger"
+            color: "success"
         },
 
         {
             descripcion: "Manifiesto ágil.",
             web: "https://www.atlassian.com/es/agile/manifesto",
-            color: "danger"
+            color: "success"
         },
 
         {
             descripcion: "SCRUM",
             web: "https://www.atlassian.com/es/agile/scrum",
+            color: "success"
+        },
+
+        {
+            descripcion: "Las 4 reglas recogidas en el Manifiesto Agile",
+            web: "https://baturamobile.com/blog/4-reglas-manifiesto-agile/",
             color: "danger"
         },
+
+        {
+            descripcion: "Metodologías ágiles, ¿cuáles son las más importantes?",
+            web: "https://altertecnia.com/metodologias-agiles-mas-importantes/",
+            color: "danger"
+        },
+
 
 
         // {

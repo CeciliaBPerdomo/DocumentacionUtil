@@ -4,12 +4,33 @@ import letras from "../../img/letra.png"
 
 function Tipografia() {
     let info = [
-        // {
-        //     titulo: "Realtime Colors",
-        //     descripcion: "Visualize Your Colors & Fonts On a Real Site",
-        //     ruta: "https://www.realtimecolors.com/?colors=130e01-fffaeb-ff8400-fff5d6-cf4307&fonts=Poppins-Poppins",
-        //     color: "light"
-        // },
+        {
+            titulo: "Canva's",
+            descripcion: "Canva's ultimate guide to font combinations",
+            ruta: "https://www.canva.com/learn/the-ultimate-guide-to-font-pairing/",
+            color: "light"
+        },
+
+        {
+            titulo: "TypeWolf",
+            descripcion: "What’s Trending in Type",
+            ruta: "https://www.typewolf.com/",
+            color: "light"
+        },
+
+        {
+            titulo: "Styleshout",
+            descripcion: "10 Excellent Font Pairing Tools for Designers",
+            ruta: "https://styleshout.com/10-excellent-font-pairing-tools-for-designers/",
+            color: "light"
+        },
+
+        {
+            titulo: "Fonts Ninja",
+            descripcion: "Speed up your design workflow!",
+            ruta: "https://chrome.google.com/webstore/detail/fonts-ninja/eljapbgkmlngdpckoiiibecpemleclhh?hl=en-US",
+            color: "success"
+        },
 
     ]
     return (

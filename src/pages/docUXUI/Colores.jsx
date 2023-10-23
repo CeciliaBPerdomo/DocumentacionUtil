@@ -1,6 +1,7 @@
 import React from 'react'
 import ColoresUX from './ColoresUX'
 import Tipografia from './Tipografia'
+import Patrones from './Patrones'
 
 function Colores() {
     return (
@@ -17,6 +18,11 @@ function Colores() {
             <hr />
             <Tipografia />
             
+            {/* Patrones */}
+            <br />
+            <h3>Patrones</h3>
+            <hr />
+            <Patrones />
         </div>
     )
 }
