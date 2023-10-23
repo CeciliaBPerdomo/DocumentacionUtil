@@ -46,7 +46,7 @@ function Documentacion() {
             <div className="row">
                 {documentacion.map((item, id) => (
                     <div className="col-4" key={id}>
-                        <div className={"alert alert-" + item.color} role="alert" style={{height: "55px", color: "black" }}>
+                        <div className={"alert alert-" + item.color} role="alert" style={{height: "75px", color: "black" }}>
                             <Link to={item.web} style={{ textDecoration: "none", color: "black" }}>
                                 <p>  {item.descripcion} </p>
                             </Link>
