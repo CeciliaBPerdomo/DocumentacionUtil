@@ -16,8 +16,6 @@ function CustomWebsite() {
         //     ruta: "",
         //     color: "light"
         // },
-
-
     ]
 
   return (

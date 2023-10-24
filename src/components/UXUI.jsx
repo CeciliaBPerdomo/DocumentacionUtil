@@ -18,19 +18,19 @@ function UXUI() {
 
         {
             descripcion: "Prototipos",
-            ruta: "/",
+            ruta: "/prototipos",
             color: "light"
         },
 
         {
             descripcion: "Removedores de fondo",
-            ruta: "/",
+            ruta: "/removedores",
             color: "light"
         },
 
         {
             descripcion: "Iconos & Logos",
-            ruta: "/",
+            ruta: "/iconos_logos",
             color: "success"
         },
 
@@ -42,19 +42,19 @@ function UXUI() {
 
         {
             descripcion: "News",
-            ruta: "/",
+            ruta: "/news",
             color: "success"
         },
 
         {
             descripcion: "Apps",
-            ruta: "/",
+            ruta: "/apps_uxui",
             color: "success"
         },
 
         {
             descripcion: "Capacidades diferentes",
-            ruta: "/",
+            ruta: "/capacidades",
             color: "danger"
         },
     ]

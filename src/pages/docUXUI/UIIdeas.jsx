@@ -20,7 +20,7 @@ function UIIdeas() {
 
              {/* Imagenes */}
              <br />
-            <h3>Imagenes</h3>
+            <h3>Imágenes</h3>
             <hr />
             <ImagenesUI />
 

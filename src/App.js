@@ -34,6 +34,12 @@ import UXUI from "./components/UXUI";
 import Colores from "./pages/docUXUI/Colores";
 import UXIdeas from "./pages/docUXUI/UXIdeas";
 import UIIdeas from "./pages/docUXUI/UIIdeas";
+import Prototipos from "./pages/docUXUI/Prototipos";
+import RemovedoresFondo from "./pages/docUXUI/RemovedoresFondo";
+import IconosLogos from "./pages/docUXUI/IconosLogos";
+import News from "./pages/docUXUI/News";
+import Capacidades from "./pages/docUXUI/Capacidades";
+import Apps from "./pages/docUXUI/Apps";
 
 function App() {
   return (
@@ -72,6 +78,12 @@ function App() {
             <Route path="colores" element={<Colores />} /> 
             <Route path="ux_ideas" element={<UXIdeas />} /> 
             <Route path="ui_ideas" element={<UIIdeas />} /> 
+            <Route path="prototipos" element={<Prototipos />} /> 
+            <Route path="removedores" element={<RemovedoresFondo />} /> 
+            <Route path="iconos_logos" element={<IconosLogos />} /> 
+            <Route path="news" element={<News />} /> 
+            <Route path="capacidades" element={<Capacidades />} /> 
+            <Route path="apps_uxui" element={<Apps />} /> 
 
             {/* Error */}
             <Route path="*" element={<NoPage />} />

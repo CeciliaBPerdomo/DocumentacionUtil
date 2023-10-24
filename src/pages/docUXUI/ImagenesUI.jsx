@@ -1,8 +1,57 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 
 function ImagenesUI() {
+  let info = [
+    {
+      titulo: "Foodies Feed",
+      descripcion: "Build with the power of code — without writing any.",
+      ruta: "https://www.foodiesfeed.com/",
+      color: "light"
+    },
+
+    {
+      titulo: "Pexels",
+      descripcion: "",
+      ruta: "https://www.pexels.com/es-es/",
+      color: "light"
+    },
+
+    {
+      titulo: "Unsplash",
+      descripcion: "",
+      ruta: "https://unsplash.com/es",
+      color: "light"
+    },
+
+    {
+      titulo: "Stock Snap",
+      descripcion: "Beautiful Free Stock Photos",
+      ruta: "https://stocksnap.io/",
+      color: "light"
+    },
+  ]
+
   return (
-    <div>ImagenesUI</div>
+    <div className="container">
+      <div className="row">
+        {info.map((item, id) => (
+          <div className="col-3" key={id}>
+            <div className={"alert alert-" + item.color} role="alert" style={{ color: "black" }}>
+              <Link to={item.ruta} style={{ textDecoration: "none", color: "black" }}>
+                <p className='text-center'>
+                  <b>{item.titulo}</b>
+                  {/* {item.descripcion} */}
+                </p>
+              </Link>
+            </div>
+          </div>
+        ))}
+      </div>
+
+    </div>
+
   )
 }
 
