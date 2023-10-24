@@ -36,12 +36,12 @@ function ReactRouterDocOficial() {
             <div class="container text-center">
                 <div class="row">
                     {info.map((item, id) => (
-                        <div class="col-6" key={id}>
-                            <div class="alert alert-success" role="alert" style={{ height: "270px" }}>
+                        <div class="col-lg-6 col-sm-1 col-md-1" key={id}>
+                            <div class="alert alert-success" role="alert" style={{ minHeight: "280px" }}>
                                 <p className='text-start'><b>{item.nombre}</b>: {item.descripcion}</p>
                                 <p className='text-start'>Web/npm: <b onClick={(e) => abrirLink(item.web)}>{item.web}</b></p>
                             </div>
-                            <hr />
+                            
                         </div>
                     ))}
                 </div>

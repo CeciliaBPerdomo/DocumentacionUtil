@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import letras from "../../img/letra.png"
+// import letras from "../../img/letra.png"
 
 function Tipografia() {
     let info = [
@@ -35,13 +35,13 @@ function Tipografia() {
     ]
     return (
         <div className="container">
-            <div className="alert alert-light col-4 d-flex justify-content-center" role="alert">
+            {/* <div className="alert alert-light col-4 d-flex justify-content-center" role="alert">
                 <img src={letras} alt="Tipografia" />
             </div>
-            <br />
+            <br /> */}
             <div className="row">
                 {info.map((item, id) => (
-                    <div className="col-4" key={id}>
+                    <div className="col-lg-3 col-sm-1 col-md-1" key={id}>
                         <div className={"alert alert-" + item.color} role="alert" style={{ height: "85px", color: "black" }}>
                             <Link to={item.ruta} style={{ textDecoration: "none", color: "black" }}>
                                 <p className='text-center'>

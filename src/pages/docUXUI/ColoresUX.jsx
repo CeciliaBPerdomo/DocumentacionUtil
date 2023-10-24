@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import colores from "../../img/colorwheel.png"
+// import colores from "../../img/colorwheel.png"
 
 function ColoresUX() {
     let info = [
@@ -29,7 +29,7 @@ function ColoresUX() {
             titulo: "Color safe",
             descripcion: "Empowering designers with beautiful and accessible color palettes based on WCAG Guidelines of text and background contrast ratios.",
             ruta: "http://colorsafe.co/",
-            color: "success"
+            color: "light"
         },
 
         {
@@ -50,33 +50,33 @@ function ColoresUX() {
             titulo: "Colorzilla",
             descripcion: "Is an extension that assists web developers and graphic designers with color related tasks - both basic and advanced.",
             ruta: "https://www.colorzilla.com/chrome/",
-            color: "danger"
+            color: "success"
         },
 
         {
             titulo: "Color names",
             descripcion: "Modern browsers support 140 named colors. Use them in your HTML and CSS by name, Hex color code or RGB value.",
             ruta: "https://htmlcolorcodes.com/color-names/",
-            color: "danger"
+            color: "success"
         },
 
     ]
 
     return (
         <div className="container">
-            <div className="alert alert-light col-5 d-flex justify-content-center" role="alert">
+            {/* <div className="alert alert-light col-lg-5 col-sm-1 d-flex justify-content-center" role="alert">
                 <img src={colores} alt="Colores" />
             </div>
-            <br />
+            <br /> */}
 
             <div className="row">
                 {info.map((item, id) => (
-                    <div className="col-4" key={id}>
-                        <div className={"alert alert-" + item.color} role="alert" style={{ height: "100px", color: "black" }}>
+                    <div className="col-lg-3 col-sm-1 col-md-1" key={id}>
+                        <div className={"alert alert-" + item.color} role="alert" style={{ color: "black" }}>
                             <Link to={item.ruta} style={{ textDecoration: "none", color: "black" }}>
                                 <p className='text-center'>
-                                    <b>{item.titulo}: </b>
-                                    {item.descripcion}
+                                    <b>{item.titulo}</b>
+                                    {/* {item.descripcion} */}
                                 </p>
                             </Link>
                         </div>

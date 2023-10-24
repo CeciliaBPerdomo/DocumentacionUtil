@@ -57,8 +57,8 @@ const abrirLink = (direccion) => {
         <div class="container text-center">
                 <div class="row">
                     {graficas.map((item, id) => (
-                        <div class="col-4" key={id}>
-                            <div class={"alert alert-" + item.color} role="alert" style={{height: "180px"}}>
+                        <div class="col-lg-4 col-sm-1 col-md-1" key={id}>
+                            <div class={"alert alert-" + item.color} role="alert" style={{height: "200px"}}>
                                 <p className='text-start'><b>{item.libreria}</b>
                                 {/* : {item.descripcion} */}
                                 </p>

@@ -41,8 +41,8 @@ function Capacidades() {
 
             <div className="row">
                 {info.map((item, id) => (
-                    <div className="col-3" key={id}>
-                        <div className={"align-middle alert alert-" + item.color} role="alert" style={{ height: "60px", color: "black" }}>
+                    <div className="col-lg-3 col-sm-1 col-md-1" key={id}>
+                        <div className={"alert alert-" + item.color} role="alert" style={{  color: "black" }}>
                             <Link to={item.ruta} style={{ textDecoration: "none", color: "black" }}>
                                 <p className='text-center'>
                                     <b>{item.titulo}</b>

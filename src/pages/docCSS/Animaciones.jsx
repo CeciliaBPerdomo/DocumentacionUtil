@@ -72,8 +72,8 @@ function AnimacionesCSS() {
             <br />
             <div className="row">
                 {animaciones.map((item, id) => (
-                    <div className="col-6" key={id}>
-                        <div className={"alert alert-" + item.color} role="alert" style={{ height: "120px", color: "black" }}>
+                    <div className="col-lg-3 col-sm-1 col-md-1" key={id}>
+                        <div className={"alert alert-" + item.color} role="alert" style={{ height: "170px", color: "black" }}>
                             <Link to={item.web} style={{ textDecoration: "none", color: "black" }}>
                                 <p><b>{item.libreria}</b>: {item.descripcion}</p>
                             </Link>

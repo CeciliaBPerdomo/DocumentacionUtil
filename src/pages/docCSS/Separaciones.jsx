@@ -73,10 +73,12 @@ function Separaciones() {
             <br />
             <div className="row">
                 {separaciones.map((item, id) => (
-                    <div className="col-6" key={id}>
-                        <div className={"alert alert-" + item.color} role="alert" style={{ height: "120px", color: "black" }}>
+                    <div className="col-lg-4 col-sm-1 col-md-1" key={id}>
+                        <div className={"alert alert-" + item.color} role="alert" style={{ height: "160px", color: "black", minHeight: "220px" }}>
                             <Link to={item.web} style={{ textDecoration: "none", color: "black" }}>
-                                <p><b>{item.libreria}</b>: {item.descripcion}</p>
+                                <p><b>{item.libreria}</b>
+                                : {item.descripcion}
+                                </p>
                             </Link>
                             {item.git !== "" ?
                             <Link to={item.git} style={{ textDecoration: "none", color: "black" }}>

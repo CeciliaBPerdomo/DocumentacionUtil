@@ -57,10 +57,10 @@ function FechasyCalendarios() {
             <h3>Calendarios</h3>
             <hr />
 
-            <div class="container text-center">
+            <div class="text-center">
                 <div class="row">
                     {calendarios.map((item, id) => (
-                        <div class="col-6" key={id}>
+                        <div class="col-lg-6 col-sm-1 col-md-1" key={id}>
                             <div class="alert alert-primary" role="alert" style={{height: "195px"}}>
                                 <p className='text-start'><b>{item.libreria}</b>: {item.descripcion}</p>
                                 <p className='text-start'>Web/npm: <b onClick={(e) => abrirLink(item.web)}>{item.web}</b></p>

@@ -15,7 +15,7 @@ function Gesalt() {
     <div className="container">
             <div className="row">
                 {info.map((item, id) => (
-                    <div className="col-4" key={id}>
+                    <div className="col-lg-3 col-sm-1 col-md-1" key={id}>
                         <div className={"alert alert-" + item.color} role="alert" style={{ color: "black" }}>
                             <Link to={item.ruta} style={{ textDecoration: "none", color: "black" }}>
                                 <p className='text-center'>
