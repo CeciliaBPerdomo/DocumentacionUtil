@@ -46,6 +46,9 @@ import DOCBootStrap from "./components/DOCBootStrap";
 import DOCTailwind from "./components/DOCTailwind";
 import DOCFoundation from "./components/DOCFoundation";
 
+// JavaScript
+import DOCJavaScript from "./components/DOCJavaScript";
+
 function App() {
   return (
     <div>
@@ -94,6 +97,10 @@ function App() {
             <Route path="bootstrap" element={<DOCBootStrap />} /> 
             <Route path="tailwind" element={<DOCTailwind />} /> 
             <Route path="foundation" element={<DOCFoundation />} /> 
+
+            {/* JavaScript */}
+            <Route path="javascript" element={<DOCJavaScript />} /> 
+
 
 
             {/* Error */}

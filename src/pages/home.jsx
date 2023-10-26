@@ -62,7 +62,7 @@ const Home = () => {
             tema: "javaScript",
             imagen: logoJavaScript,
             descripcion: "Documentación útil, cursos, librerias, challenges",
-            info: "/"
+            info: "/javascript"
         },
 
         {
