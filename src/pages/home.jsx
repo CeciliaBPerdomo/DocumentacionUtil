@@ -39,7 +39,7 @@ const Home = () => {
             tema: "Bootstrap",
             imagen: logoBoostrap,
             descripcion: "Cursos",
-            info: "/"
+            info: "/bootstrap"
         },
 
         {

@@ -41,6 +41,9 @@ import News from "./pages/docUXUI/News";
 import Capacidades from "./pages/docUXUI/Capacidades";
 import Apps from "./pages/docUXUI/Apps";
 
+// Bootstrap
+import DOCBootStrap from "./components/DOCBootStrap";
+
 function App() {
   return (
     <div>
@@ -84,6 +87,9 @@ function App() {
             <Route path="news" element={<News />} /> 
             <Route path="capacidades" element={<Capacidades />} /> 
             <Route path="apps_uxui" element={<Apps />} /> 
+
+            {/* Bootstrap */}
+            <Route path="bootstrap" element={<DOCBootStrap />} /> 
 
             {/* Error */}
             <Route path="*" element={<NoPage />} />

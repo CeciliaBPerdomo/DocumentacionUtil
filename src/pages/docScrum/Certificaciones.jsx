@@ -13,19 +13,7 @@ function Certificaciones() {
             descripcion: "CertiProf - Professional Knowledge",
             web: "https://certiprof.com/pages/scrum-foundation-certificate-free",
             color: "success"
-        },
-
-        // {
-        //     descripcion: "SCRUM",
-        //     web: "https://www.atlassian.com/es/agile/scrum",
-        //     color: "danger"
-        // },
-
-
-        // {
-        //     "descripcion": "",
-        //     "web": ""
-        // },
+        }
     ]
 
     return (
