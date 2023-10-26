@@ -82,9 +82,9 @@ function UXUI() {
             <div className="row">
                 {info.map((item, id) => (
                     <div className="col-lg-3 col-sm-1 col-md-1" key={id}>
-                        <div className={"alert alert-" + item.color } 
-                        style={{ color: "black"}}>
-                            <Link to={item.ruta} style={{ textDecoration: "none", color: "black" }}>
+                        <div className={"btn btn-outline-" + item.color } 
+                        style={{ color: "black", width: "270px", marginBottom: "20px", paddingTop: "20px"}}>
+                            <Link to={item.ruta} style={{ textDecoration: "none", color: "black"}}>
                                 <p className='text-center'>
                                     {item.descripcion} </p>
                             </Link>

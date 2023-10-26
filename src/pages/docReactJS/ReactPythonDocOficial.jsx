@@ -55,7 +55,7 @@ function ReactPythonDocOficial() {
             <ReactPlayer
                 url='https://www.youtube.com/watch?v=EE3wnE0nb4U&t=206s'
                 className='react-player'
-                playing
+               // playing
                 width='49%'
                 //height='100%'
             />
