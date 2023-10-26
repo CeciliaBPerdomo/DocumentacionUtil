@@ -35,21 +35,21 @@ function News() {
             titulo: "UX Planet",
             descripcion: "UX Planet",
             ruta: "https://uxplanet.org/",
-            color: "success"
+            color: "light"
         },
 
         {
             titulo: "7 Rules for Creating Gorgeous UI - Part 1",
             descripcion: "7 Rules for Creating Gorgeous UI",
             ruta: "https://medium.com/@erikdkennedy/7-rules-for-creating-gorgeous-ui-part-1-559d4e805cda#b7c4",
-            color: "success"
+            color: "light"
         },
 
         {
             titulo: "7 Rules for Creating Gorgeous UI - Part 2",
             descripcion: "7 Rules for Creating Gorgeous UI",
             ruta: "https://medium.com/@erikdkennedy/7-rules-for-creating-gorgeous-ui-part-2-430de537ba96",
-            color: "success"
+            color: "light"
         },
     ]
     return (

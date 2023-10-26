@@ -36,28 +36,28 @@ function ColoresUX() {
             titulo: "Choosing colors",
             descripcion: "How to Choose a Color for Your Website: Expert Tips.",
             ruta: "https://www.digitalinformationworld.com/2022/02/how-to-choose-color-for-your-website.html",
-            color: "success"
+            color: "light"
         },
 
         {
             titulo: "Adobe colors",
             descripcion: "Da rienda suelta a la magia de Color en Adobe Express.",
             ruta: "https://color.adobe.com/es/create/color-wheel",
-            color: "success"
+            color: "light"
         },
 
         {
             titulo: "Colorzilla",
             descripcion: "Is an extension that assists web developers and graphic designers with color related tasks - both basic and advanced.",
             ruta: "https://www.colorzilla.com/chrome/",
-            color: "success"
+            color: "light"
         },
 
         {
             titulo: "Color names",
             descripcion: "Modern browsers support 140 named colors. Use them in your HTML and CSS by name, Hex color code or RGB value.",
             ruta: "https://htmlcolorcodes.com/color-names/",
-            color: "success"
+            color: "light"
         },
 
     ]

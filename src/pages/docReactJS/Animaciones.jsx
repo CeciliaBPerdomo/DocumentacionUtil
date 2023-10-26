@@ -122,16 +122,18 @@ function Animaciones() {
             <div class="container text-center">
                 <div class="row">
                     {animaciones.map((item, id) => (
-                        <div class="col-lg-4 col-sm-1 col-md-1" key={id}>
-                            <div class={"alert alert-" + item.color} role="alert" style={{ minHeight: "295px" }}>
-                                <p className='text-start'><b>{item.libreria}</b>: {item.descripcion}</p>
-                                <p className='text-start'>Web/npm: <b onClick={(e) => abrirLink(item.web)}>{item.web}</b></p>
+                        <div class="col-lg-3 col-sm-1 col-md-1" key={id}>
+                            <div class="alert alert-light" role="alert">
+                                <p className='text-center'><b onClick={(e) => abrirLink(item.web)}>{item.libreria}</b>
+                                {/* : {item.descripcion} */}
+                                </p>
+                                {/* <p className='text-start'>Web/npm: <b onClick={(e) => abrirLink(item.web)}>{item.web}</b></p>
                                 <p className='text-start'>gitHub: <b onClick={(e) => abrirLink(item.git)}>{item.git}</b></p>
 
                                 {item.infoAdiccional ?
                                     <p className='text-start'>Más info: <b onClick={(e) => abrirLink(item.infoAdiccional)}>{item.infoAdiccional}</b></p>
                                     : null
-                                }
+                                } */}
                             </div>
                         </div>
                     ))}

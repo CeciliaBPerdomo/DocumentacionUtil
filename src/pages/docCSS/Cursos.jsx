@@ -6,7 +6,7 @@ function Cursos() {
         {
             descripcion: "Introducción a CSS",
             web: "https://www.simplilearn.com/learn-css-basics-free-training-course-skillup",
-            color: "success"
+            color: "light"
         },
 
 

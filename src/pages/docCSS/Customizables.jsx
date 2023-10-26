@@ -7,19 +7,19 @@ function Customizables() {
         {
             descripcion: "Separadores",
             ruta: "/separaciones",
-            color: "light"
+            color: "success"
         },
 
         {
             descripcion: "Animaciones",
             ruta: "/animaciones_CSS",
-            color: "light"
+            color: "success"
         },
 
         {
             descripcion: "Games",
             ruta: "/games_CSS",
-            color: "light"
+            color: "success"
         },
 
 

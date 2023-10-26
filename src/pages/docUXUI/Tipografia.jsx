@@ -8,21 +8,21 @@ function Tipografia() {
             titulo: "Canva's",
             descripcion: "Canva's ultimate guide to font combinations",
             ruta: "https://www.canva.com/learn/the-ultimate-guide-to-font-pairing/",
-            color: "light"
+            color: "success"
         },
 
         {
             titulo: "TypeWolf",
             descripcion: "What’s Trending in Type",
             ruta: "https://www.typewolf.com/",
-            color: "light"
+            color: "success"
         },
 
         {
             titulo: "Styleshout",
             descripcion: "10 Excellent Font Pairing Tools for Designers",
             ruta: "https://styleshout.com/10-excellent-font-pairing-tools-for-designers/",
-            color: "light"
+            color: "success"
         },
 
         {
@@ -35,7 +35,7 @@ function Tipografia() {
     ]
     return (
         <div className="container">
-            {/* <div className="alert alert-light col-4 d-flex justify-content-center" role="alert">
+            {/* <div className="alert alert-success col-4 d-flex justify-content-center" role="alert">
                 <img src={letras} alt="Tipografia" />
             </div>
             <br /> */}

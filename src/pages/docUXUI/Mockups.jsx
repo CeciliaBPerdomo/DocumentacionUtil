@@ -7,28 +7,28 @@ function Mockups() {
             titulo: "Previewed",
             descripcion: "The simplest way to create device mockups. All in your browser.",
             ruta: "https://previewed.app/",
-            color: "light"
+            color: "warning"
         },
 
         {
             titulo: "Jitter",
             descripcion: "Motion design, made simple.",
             ruta: "https://jitter.video/",
-            color: "light"
+            color: "warning"
         },
 
         {
             titulo: "MockRocket",
             descripcion: "Create device mockups & products videos.",
             ruta: "https://mockrocket.io/",
-            color: "light"
+            color: "warning"
         },
 
         {
             titulo: "All Free Mockups",
             descripcion: "Magazines & Books, iPhone, iPad, MacBook, iMac, Packaging, Signs, Vehicles, Apparel, Food and Beverages, Cosmetics and more!",
             ruta: "https://www.mockupworld.co/all-mockups/",
-            color: "light"
+            color: "warning"
         },
     ]
 

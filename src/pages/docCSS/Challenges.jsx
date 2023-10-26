@@ -6,12 +6,12 @@ function Challenges() {
         {
             descripcion: "FrontEnd Mentor",
             web: "https://www.frontendmentor.io/",
-            color: "success"
+            color: "danger"
         },
         {
             descripcion: "Codepen",
             web: "https://codepen.io/challenges",
-            color: "success"
+            color: "danger"
         },
 
 

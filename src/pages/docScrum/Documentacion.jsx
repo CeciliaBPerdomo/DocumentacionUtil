@@ -22,13 +22,13 @@ function Documentacion() {
         },
 
         {
-            descripcion: "Las 4 reglas recogidas en el Manifiesto Agile",
+            descripcion: "4 reglas recogidas del M.A.",
             web: "https://baturamobile.com/blog/4-reglas-manifiesto-agile/",
             color: "danger"
         },
 
         {
-            descripcion: "Metodologías ágiles, ¿cuáles son las más importantes?",
+            descripcion: "M. A. ¿cuáles son las más importantes?",
             web: "https://altertecnia.com/metodologias-agiles-mas-importantes/",
             color: "danger"
         },
@@ -45,8 +45,8 @@ function Documentacion() {
         <div className="container text-center">
             <div className="row">
                 {documentacion.map((item, id) => (
-                    <div className="col-lg-4 col-sm-1 col-md-1" key={id}>
-                        <div className={"alert alert-" + item.color} role="alert" style={{maxHeight: "75px", color: "black" }}>
+                    <div className="col-lg-3 col-sm-1 col-md-1" key={id}>
+                        <div className="alert alert-light" role="alert">
                             <Link to={item.web} style={{ textDecoration: "none", color: "black" }}>
                                 <p>  {item.descripcion} </p>
                             </Link>

@@ -7,7 +7,7 @@ function Gesalt() {
             titulo: "Gestalt Theory",
             descripcion: "Use the Gestalt principles to make your designs more coherent.",
             ruta: "https://www.creativebloq.com/graphic-design/gestalt-theory-10134960",
-            color: "light"
+            color: "success"
         },
     ]
 
@@ -19,8 +19,8 @@ function Gesalt() {
                         <div className={"alert alert-" + item.color} role="alert" style={{ color: "black" }}>
                             <Link to={item.ruta} style={{ textDecoration: "none", color: "black" }}>
                                 <p className='text-center'>
-                                    <b>{item.titulo}: </b>
-                                    {item.descripcion}
+                                    <b>{item.titulo} </b>
+                                    {/* {item.descripcion} */}
                                 </p>
                             </Link>
                         </div>

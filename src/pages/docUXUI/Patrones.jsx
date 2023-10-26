@@ -7,7 +7,7 @@ function Patrones() {
             titulo: "Toptal",
             descripcion: "Latest Patterns",
             ruta: "https://www.toptal.com/designers/subtlepatterns/",
-            color: "light"
+            color: "danger"
         },
 
         // {
@@ -27,8 +27,8 @@ function Patrones() {
                         <div className={"alert alert-" + item.color} role="alert" style={{ color: "black" }}>
                             <Link to={item.ruta} style={{ textDecoration: "none", color: "black" }}>
                                 <p className='text-center'>
-                                    <b>{item.titulo}: </b>
-                                    {item.descripcion}
+                                    <b>{item.titulo} </b>
+                                    {/* {item.descripcion} */}
                                 </p>
                             </Link>
                         </div>

@@ -8,28 +8,28 @@ function ImagenesUI() {
       titulo: "Foodies Feed",
       descripcion: "Build with the power of code — without writing any.",
       ruta: "https://www.foodiesfeed.com/",
-      color: "light"
+      color: "success"
     },
 
     {
       titulo: "Pexels",
       descripcion: "",
       ruta: "https://www.pexels.com/es-es/",
-      color: "light"
+      color: "success"
     },
 
     {
       titulo: "Unsplash",
       descripcion: "",
       ruta: "https://unsplash.com/es",
-      color: "light"
+      color: "success"
     },
 
     {
       titulo: "Stock Snap",
       descripcion: "Beautiful Free Stock Photos",
       ruta: "https://stocksnap.io/",
-      color: "light"
+      color: "success"
     },
   ]
 

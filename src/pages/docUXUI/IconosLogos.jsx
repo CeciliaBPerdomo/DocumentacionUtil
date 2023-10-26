@@ -17,7 +17,7 @@ function IconosLogos() {
             titulo: "200+ Cool Personal Logo Designs",
             descripcion: "200+ Cool Personal Logo Designs.",
             ruta: "https://www.companyfolders.com/blog/200-cool-personal-logo-designs-for-inspiration",
-            color: "light"
+            color: "success"
         },
     ]
 

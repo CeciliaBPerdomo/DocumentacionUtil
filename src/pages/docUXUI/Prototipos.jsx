@@ -36,21 +36,21 @@ function Prototipos() {
             titulo: "Headspace App Information Architecture Study",
             descripcion: "Headspace App Information Architecture Study.",
             ruta: "https://medium.com/@phaneron/headspace-app-information-architecture-457ef0a3cc16",
-            color: "success"
+            color: "light"
         },
 
         {
             titulo: "Design patterns",
             descripcion: "Design patterns.",
             ruta: "https://ui-patterns.com/patterns/navigation/list",
-            color: "success"
+            color: "light"
         },
 
         {
             titulo: "10 Free-to-Use Wireframing Tools",
             descripcion: "10 Free-to-Use Wireframing Tools.",
             ruta: "https://www.interaction-design.org/literature/article/10-free-to-use-wireframing-tools",
-            color: "success"
+            color: "light"
         },
     ]
 

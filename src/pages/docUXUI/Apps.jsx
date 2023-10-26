@@ -24,28 +24,28 @@ function Apps() {
             titulo: "Figma",
             descripcion: "Figma.",
             ruta: "https://www.figma.com/",
-            color: "light"
+            color: "success"
         },
 
         {
             titulo: "inVision",
             descripcion: "Freehand – The all-in-one collaborative workspace.",
             ruta: "https://www.invisionapp.com/",
-            color: "light"
+            color: "success"
         },
 
         {
             titulo: "Sketch",
             descripcion: "Sketch is where great design happens.",
             ruta: "https://www.sketch.com/",
-            color: "light"
+            color: "success"
         },
 
         {
             titulo: "Zeplin",
             descripcion: "Between Design and Dev – there’s Zeplin.",
             ruta: "https://zeplin.io/",
-            color: "light"
+            color: "success"
         },
 
         {
@@ -66,7 +66,7 @@ function Apps() {
             titulo: "WebFlow",
             descripcion: "Build with the power of code — without writing any.",
             ruta: "https://webflow.com/",
-            color: "success"
+            color: "success "
         },
 
         {
@@ -80,7 +80,7 @@ function Apps() {
             titulo: "Principle",
             descripcion: "Animate Your Ideas, Design Better Apps.",
             ruta: "https://principleformac.com/",
-            color: "danger"
+            color: "success"
         },
     ]
 
@@ -89,7 +89,7 @@ function Apps() {
             titulo: "Just in Mind",
             descripcion: "Design and prototyping tool for web and mobile apps.",
             ruta: "https://www.justinmind.com/",
-            color: "light"
+            color: "danger"
         },
 
         // {
