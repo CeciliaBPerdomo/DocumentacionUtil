@@ -41,8 +41,10 @@ import News from "./pages/docUXUI/News";
 import Capacidades from "./pages/docUXUI/Capacidades";
 import Apps from "./pages/docUXUI/Apps";
 
-// Bootstrap
+// Bootstrap & otros
 import DOCBootStrap from "./components/DOCBootStrap";
+import DOCTailwind from "./components/DOCTailwind";
+import DOCFoundation from "./components/DOCFoundation";
 
 function App() {
   return (
@@ -88,8 +90,11 @@ function App() {
             <Route path="capacidades" element={<Capacidades />} /> 
             <Route path="apps_uxui" element={<Apps />} /> 
 
-            {/* Bootstrap */}
+            {/* Bootstrap y otros */}
             <Route path="bootstrap" element={<DOCBootStrap />} /> 
+            <Route path="tailwind" element={<DOCTailwind />} /> 
+            <Route path="foundation" element={<DOCFoundation />} /> 
+
 
             {/* Error */}
             <Route path="*" element={<NoPage />} />

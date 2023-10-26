@@ -8,6 +8,8 @@ import logoScrum from "../img/logoScrum.jpeg"
 import logoUXUI from "../img/logoUXUI.png"
 import logoVue from "../img/logoVue.jpeg"
 import caratula from "../img/caratula.png"
+import tail from "../img/tailwindcssLogo.png"
+import foundation from "../img/logoFundation.png"
 
 import Footer from "./Footer";
 
@@ -38,8 +40,22 @@ const Home = () => {
         {
             tema: "Bootstrap",
             imagen: logoBoostrap,
-            descripcion: "Cursos",
+            descripcion: "Documentación, templates",
             info: "/bootstrap"
+        },
+
+        {
+            tema: "Tailwind",
+            imagen: tail,
+            descripcion: "Documentación, templates",
+            info: "/tailwind"
+        },
+
+        {
+            tema: "Foundation",
+            imagen: foundation,
+            descripcion: "Documentación",
+            info: "/foundation"
         },
 
         {
@@ -91,7 +107,8 @@ const Home = () => {
                     {tema.map((item, id) => (
                         <div className="col" key={id} style={{ marginBottom: "35px" }}>
                             <div className="card" style={{ width: "18rem" }}>
-                                <img src={item.imagen} className="card-img-top" alt={item.tema} />
+                                <img src={item.imagen} 
+                                className="card-img-top" alt={item.tema} />
                                 <div className="card-body" style={{ height: "85px" }}>
                                     <h5 className="card-title">{item.tema}</h5>
                                     <p className="card-text">{item.descripcion}</p>
