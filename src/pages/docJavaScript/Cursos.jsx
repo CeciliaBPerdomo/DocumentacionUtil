@@ -4,6 +4,12 @@ import { Link } from 'react-router-dom'
 function Cursos() {
     let info = [
         {
+            descripcion: "Knowledge Map",
+            web: "https://learnjavascript.online/knowledge-map.html",
+            color: "light"
+        },
+
+        {
             descripcion: "Microsoft Learn",
             web: "https://learn.microsoft.com/en-us/training/modules/web-development-101-arrays/",
             color: "light"
@@ -30,6 +36,12 @@ function Cursos() {
         {
             descripcion: "Microsoft Training",
             web: "https://learn.microsoft.com/es-es/training/paths/build-javascript-applications-nodejs/?WT.mc_id=DT-MVP-5004970",
+            color: "light"
+        },
+
+        {
+            descripcion: "Learn JS on-line",
+            web: "https://learnjavascript.online/",
             color: "light"
         },
     ]
