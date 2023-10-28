@@ -3,13 +3,14 @@ import logoScrumBlanco from "../img/logoScrumBlanco.jpg"
 
 import Documentacion from '../pages/docScrum/Documentacion.jsx'
 import Certificaciones from '../pages/docScrum/Certificaciones.jsx'
+import HerramientasScrum from '../pages/docScrum/HerramientasScrum'
 
 function DOCScrum() {
     return (
         <div className="container">
             <br />
             <div className="alert alert-light" role="alert">
-                <img src={logoScrumBlanco} alt="React" style={{ width: "70px" }} />
+                <img src={logoScrumBlanco} alt="SCRUM" style={{ width: "70px" }} />
             </div>
             <br />
 
@@ -23,7 +24,14 @@ function DOCScrum() {
             <h3>Certificaciones</h3>
             <hr />
             <Certificaciones />
-            
+
+            {/* Herramientas */}
+            <br />
+            <h3>Herramientas</h3>
+            <hr />
+            <HerramientasScrum />
+
+            <hr />            
         </div>
     )
 
