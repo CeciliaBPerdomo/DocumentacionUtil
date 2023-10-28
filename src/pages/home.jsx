@@ -76,7 +76,7 @@ const Home = () => {
             tema: "Vue.js",
             imagen: logoVue,
             descripcion: "Documentación útil, cursos, librerias, challenges",
-            info: "/"
+            info: "/vue"
         },
 
         {

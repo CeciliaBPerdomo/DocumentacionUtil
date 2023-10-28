@@ -50,6 +50,9 @@ import DOCFoundation from "./components/DOCFoundation";
 import DOCJavaScript from "./components/DOCJavaScript";
 import GraficasJS from "./pages/docJavaScript/Graficas_JS.jsx";
 
+// Vue.js
+import DocVue from "./components/DocVue";
+
 function App() {
   return (
     <div>
@@ -103,7 +106,8 @@ function App() {
             <Route path="javascript" element={<DOCJavaScript />} /> 
             <Route path="graficas_js" element={<GraficasJS />} /> 
 
-
+            {/* Vue.js */}
+            <Route path="vue" element={<DocVue />} /> 
 
 
             {/* Error */}

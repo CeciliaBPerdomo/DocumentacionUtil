@@ -1,4 +1,6 @@
 import React from 'react'
+
+// Componentes
 import Cursos from '../pages/docHTML/Cursos.jsx';
 import logoHTML from "../img/htmlBlanco.png"
 import Patterns from '../pages/docHTML/Patterns.jsx';
