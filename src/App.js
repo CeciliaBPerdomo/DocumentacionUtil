@@ -48,6 +48,7 @@ import DOCFoundation from "./components/DOCFoundation";
 
 // JavaScript
 import DOCJavaScript from "./components/DOCJavaScript";
+import GraficasJS from "./pages/docJavaScript/Graficas_JS.jsx";
 
 function App() {
   return (
@@ -100,6 +101,8 @@ function App() {
 
             {/* JavaScript */}
             <Route path="javascript" element={<DOCJavaScript />} /> 
+            <Route path="graficas_js" element={<GraficasJS />} /> 
+
 
 
 

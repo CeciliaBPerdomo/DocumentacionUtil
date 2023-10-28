@@ -4,6 +4,12 @@ import { Link } from 'react-router-dom'
 function Cursos() {
     let info = [
         {
+            descripcion: "Libro Eloquent",
+            web: "https://eloquentjavascript.net/",
+            color: "light"
+        },
+
+        {
             descripcion: "Knowledge Map",
             web: "https://learnjavascript.online/knowledge-map.html",
             color: "light"
@@ -26,7 +32,7 @@ function Cursos() {
             web: "https://learn.microsoft.com/es-es/training/paths/web-development-101/?WT.mc_id=DT-MVP-5004970",
             color: "light"
         },
-        
+
         {
             descripcion: "LenguajeJS",
             web: "https://lenguajejs.com/javascript/",
@@ -42,6 +48,12 @@ function Cursos() {
         {
             descripcion: "Learn JS on-line",
             web: "https://learnjavascript.online/",
+            color: "light"
+        },
+
+        {
+            descripcion: "Common Errors",
+            web: "https://stackdiary.com/common-javascript-errors/",
             color: "light"
         },
     ]
