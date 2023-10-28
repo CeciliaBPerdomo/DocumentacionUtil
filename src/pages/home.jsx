@@ -10,6 +10,7 @@ import logoVue from "../img/logoVue.jpeg"
 import caratula from "../img/caratula.png"
 import tail from "../img/tailwindcssLogo.png"
 import foundation from "../img/logoFundation.png"
+import logoVite from "../img/ViteLogo.jpg"
 
 import Footer from "./Footer";
 
@@ -23,6 +24,14 @@ const Home = () => {
             descripcion: "Ideas, Prototipos, Iconos, Colores, Apps, News",
             info: "/ux_ui"
         },
+
+        {
+            tema: "Scrum y metodologías ágiles",
+            imagen: logoScrum,
+            descripcion: "Documentación útil, certificaciones",
+            info: "/docScrum"
+        },
+
         {
             tema: "HTML",
             imagen: logoHTML,
@@ -80,18 +89,12 @@ const Home = () => {
         },
 
         {
-            tema: "Scrum y metodologías ágiles",
-            imagen: logoScrum,
-            descripcion: "Documentación útil, certificaciones",
-            info: "/docScrum"
+            tema: "Vite.js",
+            imagen: logoVite,
+            descripcion: "Documentación",
+            info: "/vite"
         },
 
-        // { 
-        //     tema: "",
-        //     imagen: , 
-        //     descripcion: "",
-        //     info: ""
-        // },
     ]
 
     return (

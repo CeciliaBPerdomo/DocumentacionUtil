@@ -53,6 +53,9 @@ import GraficasJS from "./pages/docJavaScript/Graficas_JS.jsx";
 // Vue.js
 import DocVue from "./components/DocVue";
 
+// Vite.js
+import DocVite from "./components/DocVite";
+
 function App() {
   return (
     <div>
@@ -109,6 +112,8 @@ function App() {
             {/* Vue.js */}
             <Route path="vue" element={<DocVue />} /> 
 
+            {/* Vite.js */}
+            <Route path="vite" element={<DocVite />} /> 
 
             {/* Error */}
             <Route path="*" element={<NoPage />} />
