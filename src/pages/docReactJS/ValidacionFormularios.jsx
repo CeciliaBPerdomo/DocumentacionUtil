@@ -27,6 +27,14 @@ function ValidacionFormularios() {
       git: "https://github.com/",
       color: "danger"
     },
+
+    {
+      libreria: "Encriptar password",
+      web: "https://www.npmjs.com/package/bcrypt",
+      descripcion: "How to make a show or hide password toggle button in Reactjs?",
+      git: "https://www.npmjs.com/package/bcrypt",
+      color: "danger"
+    },
   ]
 
   const abrirLink = (direccion) => {
@@ -48,15 +56,6 @@ function ValidacionFormularios() {
                 <p className='text-center'>
                   <b onClick={(e) => abrirLink(item.web)}>{item.libreria}</b>
                 </p>
-                {/* : {item.descripcion} */}
-                {/* <p className='text-start'>Web/npm: <b onClick={(e) => abrirLink(item.web)}>{item.web}</b></p>
-                <p className='text-start'>gitHub: <b onClick={(e) => abrirLink(item.git)}>{item.git}</b></p> */}
-
-                {/* {item.infoAdiccional ?
-                  <p className='text-start'>Más info: <b onClick={(e) => abrirLink(item.infoAdiccional)}>{item.infoAdiccional}</b></p>
-                  : null
-                } */}
-
               </div>
 
             </div>

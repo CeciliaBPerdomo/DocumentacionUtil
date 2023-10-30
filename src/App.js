@@ -56,6 +56,16 @@ import DocVue from "./components/DocVue";
 // Vite.js
 import DocVite from "./components/DocVite";
 
+// Apis Externas
+import DOCApis from "./components/DOCApis";
+import ImagenesApi from "./pages/docApisExternas/ImagenesApi";
+import PasarelasApis from "./pages/docApisExternas/PasarelasApis";
+import EnvioMails from "./pages/docApisExternas/EnvioMails";
+import MailerLite from "./pages/docApisExternas/MailerLite";
+import MusicaApis from "./pages/docApisExternas/MusicaApis";
+import ComidaApis from "./pages/docApisExternas/ComidaApis";
+import ApisNews from "./pages/docApisExternas/ApisNews";
+
 function App() {
   return (
     <div>
@@ -114,6 +124,16 @@ function App() {
 
             {/* Vite.js */}
             <Route path="vite" element={<DocVite />} /> 
+
+            {/* Apis externas */}
+            <Route path="apisExternas" element={<DOCApis />} /> 
+            <Route path="apisImagenes" element={<ImagenesApi />} /> 
+            <Route path="apisPasarelas" element={<PasarelasApis />} /> 
+            <Route path="apisMails" element={<EnvioMails />} /> 
+            <Route path="mailerLite" element={<MailerLite />} /> 
+            <Route path="apisMusica" element={<MusicaApis />} /> 
+            <Route path="apisComida" element={<ComidaApis />} /> 
+            <Route path="apisNews" element={<ApisNews />} /> 
 
             {/* Error */}
             <Route path="*" element={<NoPage />} />

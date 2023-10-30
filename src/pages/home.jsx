@@ -11,6 +11,7 @@ import caratula from "../img/caratula.png"
 import tail from "../img/tailwindcssLogo.png"
 import foundation from "../img/logoFundation.png"
 import logoVite from "../img/ViteLogo.jpg"
+import logoApis from "../img/logoApisExternas.jpg"
 
 import Footer from "./Footer";
 
@@ -93,6 +94,13 @@ const Home = () => {
             imagen: logoVite,
             descripcion: "Documentación",
             info: "/vite"
+        },
+
+        {
+            tema: "Api's Externas",
+            imagen: logoApis,
+            descripcion: "Imagénes, pagos, noticias, música, juegos, calendarios, etc.",
+            info: "/apisExternas"
         },
 
     ]
