@@ -41,19 +41,19 @@ function Apis() {
 
         {
             descripcion: "Gráficas",
-            web: "/",
+            web: "/apisGraficas",
             color: "success"
         },
 
         {
             descripcion: "IA",
-            web: "/",
+            web: "/apisIA",
             color: "success"
         },
 
         {
             descripcion: "Calendarios",
-            web: "/",
+            web: "/apisCalendarios",
             color: "success"
         },
 

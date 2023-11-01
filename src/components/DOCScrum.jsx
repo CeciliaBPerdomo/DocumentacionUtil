@@ -4,6 +4,7 @@ import logoScrumBlanco from "../img/logoScrumBlanco.jpg"
 import Documentacion from '../pages/docScrum/Documentacion.jsx'
 import Certificaciones from '../pages/docScrum/Certificaciones.jsx'
 import HerramientasScrum from '../pages/docScrum/HerramientasScrum'
+import HistoriasDeUsuario from '../pages/docScrum/HistoriasDeUsuario'
 
 function DOCScrum() {
     return (
@@ -19,6 +20,11 @@ function DOCScrum() {
             <hr />
             <Documentacion />
 
+            {/* Historias de usuarios */}
+            <h3>Historias de usuarios</h3>
+            <hr />
+            <HistoriasDeUsuario />
+
             {/* Certificacion */}
             <br />
             <h3>Certificaciones</h3>
@@ -31,7 +37,7 @@ function DOCScrum() {
             <hr />
             <HerramientasScrum />
 
-            <hr />            
+            <hr />
         </div>
     )
 

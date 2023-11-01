@@ -1,11 +1,17 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-function ApisNews() {
+function ApiIA() {
     let info = [
         {
-            descripcion: "News Api",
-            web: "https://newsapi.org/",
+            descripcion: "Alexa",
+            web: "https://developer.amazon.com/es-ES/docs/alexa/ask-overviews/what-is-the-alexa-skills-kit.html",
+            color: "light"
+        },
+
+        {
+            descripcion: "Google Home",
+            web: "https://developers.home.google.com/device-sdk?hl=es-419",
             color: "light"
         },
     ]
@@ -13,7 +19,7 @@ function ApisNews() {
     return (
         <div className='container'>
             <br />
-            <h3>Api's externas: 📰Noticias</h3>
+            <h3>Api's externas: 🧠Inteligencia artificial</h3>
             <hr />
             <div className="row">
                 {info.map((item, id) => (
@@ -33,4 +39,4 @@ function ApisNews() {
     )
 }
 
-export default ApisNews
+export default ApiIA

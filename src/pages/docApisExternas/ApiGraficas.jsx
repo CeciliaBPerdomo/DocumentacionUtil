@@ -1,19 +1,18 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-function ApisNews() {
+function ApiGraficas() {
     let info = [
         {
-            descripcion: "News Api",
-            web: "https://newsapi.org/",
+            descripcion: "Quick Chart",
+            web: "https://quickchart.io/documentation/",
             color: "light"
         },
     ]
-
     return (
         <div className='container'>
             <br />
-            <h3>Api's externas: 📰Noticias</h3>
+            <h3>Api's externas: 📈Gráficas</h3>
             <hr />
             <div className="row">
                 {info.map((item, id) => (
@@ -33,4 +32,4 @@ function ApisNews() {
     )
 }
 
-export default ApisNews
+export default ApiGraficas

@@ -16,7 +16,7 @@ let librerias = [
 let calendarios = [
     { libreria: "react-big-calendar", web: "https://www.npmjs.com/package//react-big-calendar", descripcion: "An events calendar component built for React and made for modern browsers (read: not IE) and uses flexbox over the classic tables-caption approach.", git: "https://github.com/jquense/react-big-calendar" },
     { libreria: "JavaScript Calendar", web: "https://fullcalendar.io/", descripcion: "FullCalendar provides a highly performant React component that accepts JSX for rendering nested content", git: "https://github.com/fullcalendar/fullcalendar" },
-    //{ libreria: "", web: "", descripcion: "", git: ""}, 
+    { libreria: "React-Calendly", web: "https://www.npmjs.com/package/react-calendly", descripcion: "", git: "https://www.npmjs.com/package/react-calendly"}, 
 ]
 
 function FechasyCalendarios() {

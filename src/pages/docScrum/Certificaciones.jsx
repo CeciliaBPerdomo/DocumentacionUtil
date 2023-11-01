@@ -6,13 +6,13 @@ function Certificaciones() {
         {
             descripcion: "Scrum.org",
             web: "https://www.scrum.org/professional-scrum-certifications",
-            color: "success"
+            color: "danger"
         },
 
         {
             descripcion: "CertiProf - Professional Knowledge",
             web: "https://certiprof.com/pages/scrum-foundation-certificate-free",
-            color: "success"
+            color: "danger"
         }
     ]
 

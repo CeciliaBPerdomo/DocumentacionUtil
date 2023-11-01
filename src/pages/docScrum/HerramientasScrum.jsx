@@ -6,13 +6,13 @@ function HerramientasScrum() {
         {
             descripcion: "Trello",
             web: "https://trello.com/es",
-            color: "danger"
+            color: "primary"
         }, 
 
         {
             descripcion: "Jira",
             web: "https://www.atlassian.com/es/software/jira",
-            color: "danger"
+            color: "primary"
         }, 
     ]
     return (

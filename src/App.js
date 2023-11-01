@@ -65,6 +65,9 @@ import MailerLite from "./pages/docApisExternas/MailerLite";
 import MusicaApis from "./pages/docApisExternas/MusicaApis";
 import ComidaApis from "./pages/docApisExternas/ComidaApis";
 import ApisNews from "./pages/docApisExternas/ApisNews";
+import ApiGraficas from "./pages/docApisExternas/ApiGraficas";
+import ApiIA from "./pages/docApisExternas/ApiIA";
+import ApisCalendarios from "./pages/docApisExternas/ApisCalendarios";
 
 function App() {
   return (
@@ -134,6 +137,9 @@ function App() {
             <Route path="apisMusica" element={<MusicaApis />} /> 
             <Route path="apisComida" element={<ComidaApis />} /> 
             <Route path="apisNews" element={<ApisNews />} /> 
+            <Route path="apisGraficas" element={<ApiGraficas />} /> 
+            <Route path="apisIA" element={<ApiIA />} /> 
+            <Route path="apisCalendarios" element={<ApisCalendarios />} /> 
 
             {/* Error */}
             <Route path="*" element={<NoPage />} />

@@ -35,10 +35,11 @@ function Documentacion() {
 
 
 
-        // {
-        //     "descripcion": "",
-        //     "web": ""
-        // },
+        {
+            "descripcion": "Criterios de aceptación",
+            "web": "https://www.scrummanager.com/blog/2023/03/criterios-de-aceptacion-definicion-y-ejemplos/", 
+            color: "danger"
+        },
     ]
 
     return (
