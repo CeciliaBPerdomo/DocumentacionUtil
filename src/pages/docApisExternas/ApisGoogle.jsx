@@ -13,6 +13,11 @@ function ApisGoogle() {
             web: "https://developers.google.com/drive/api/quickstart/js?hl=es-419",
             color: "light"
         },
+        {
+            descripcion: "Books",
+            web: "https://developers.google.com/books?hl=es-419",
+            color: "light"
+        },
     ]
   return (
     <div className='container'>

@@ -21,12 +21,24 @@ function ImagenesApi() {
             color: "light"
         },
 
+        {
+            descripcion: "Unsplash",
+            web: "https://unsplash.com/developers",
+            color: "light"
+        },
+
+        {
+            descripcion: "Giphy",
+            web: "https://developers.giphy.com/docs/api/",
+            color: "light"
+        },
+
     ]
 
     return (
         <div className='container'>
             <br />
-            <h3>Api's externas: Imágenes</h3>
+            <h3>Api's externas: 📷Imágenes</h3>
             <hr />
             <div className="row">
                 {info.map((item, id) => (

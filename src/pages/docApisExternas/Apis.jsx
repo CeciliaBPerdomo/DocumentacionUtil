@@ -4,26 +4,20 @@ import { Link } from 'react-router-dom'
 function Apis() {
     let info = [
         {
-            descripcion: "Imágenes",
-            web: "/apisImagenes",
+            descripcion: "Calendarios",
+            web: "/apisCalendarios",
             color: "success"
         },
 
         {
-            descripcion: "Pasarelas de pago",
-            web: "/apisPasarelas",
+            descripcion: "Clima",
+            web: "/apisClima",
             color: "success"
         },
 
         {
-            descripcion: "Envío de emails",
-            web: "/apisMails",
-            color: "success"
-        },
-
-        {
-            descripcion: "Música",
-            web: "/apisMusica",
+            descripcion: "Cómics",
+            web: "/apisComics",
             color: "success"
         },
 
@@ -34,8 +28,20 @@ function Apis() {
         },
 
         {
-            descripcion: "Noticias",
-            web: "/apisNews",
+            descripcion: "Datos",
+            web: "/apisDatos",
+            color: "success"
+        },
+
+        {
+            descripcion: "Envío de emails",
+            web: "/apisMails",
+            color: "success"
+        },
+
+        {
+            descripcion: "Google",
+            web: "/apisGoogle",
             color: "success"
         },
 
@@ -52,14 +58,8 @@ function Apis() {
         },
 
         {
-            descripcion: "Calendarios",
-            web: "/apisCalendarios",
-            color: "success"
-        },
-
-        {
-            descripcion: "Api de Google",
-            web: "/apisGoogle",
+            descripcion: "Imágenes",
+            web: "/apisImagenes",
             color: "success"
         },
 
@@ -73,8 +73,38 @@ function Apis() {
             descripcion: "Lenguaje",
             web: "/apisLenguaje",
             color: "success"
+        },  
+        
+        {
+            descripcion: "Mascotas",
+            web: "/apisMascotas",
+            color: "success"
         },
 
+
+        {
+            descripcion: "Música",
+            web: "/apisMusica",
+            color: "success"
+        },
+        
+        {
+            descripcion: "Noticias",
+            web: "/apisNews",
+            color: "success"
+        },
+
+        {
+            descripcion: "Pasarelas de pago",
+            web: "/apisPasarelas",
+            color: "success"
+        },
+
+        {
+            descripcion: "Películas",
+            web: "/apisPeliculas",
+            color: "success"
+        },     
     ]
 
     return (

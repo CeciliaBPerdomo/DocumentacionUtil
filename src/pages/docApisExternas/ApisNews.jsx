@@ -8,6 +8,17 @@ function ApisNews() {
             web: "https://newsapi.org/",
             color: "light"
         },
+        {
+            descripcion: "Covid tracking",
+            web: "https://covidtracking.com/data",
+            color: "light"
+        },
+
+        {
+            descripcion: "Open Disease Data API",
+            web: "https://disease.sh/",
+            color: "light"
+        },
     ]
 
     return (

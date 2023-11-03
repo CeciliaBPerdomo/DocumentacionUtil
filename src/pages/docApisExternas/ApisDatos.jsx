@@ -1,28 +1,25 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-function ApisJuegos() {
+function ApisDatos() {
     let info = [
         {
-            descripcion: "Steam",
-            web: "https://steamcommunity.com/dev",
+            descripcion: "JSONPlaceHolder",
+            web: "https://jsonplaceholder.typicode.com/guide/",
             color: "light"
         },
-        {
-            descripcion: "Riot Games",
-            web: "https://developer.riotgames.com/apis",
-            color: "light"
-        },
-        {
-            descripcion: "Free to Game",
-            web: "https://www.freetogame.com/api-doc",
-            color: "light"
-        },
+        
+        // {
+        //     descripcion: "Marvel",
+        //     web: "https://developer.marvel.com/",
+        //     color: "light"
+        // },
     ]
-    return (
-        <div className='container'>
+
+  return (
+    <div className='container'>
             <br />
-            <h3>Api's externas: 🎮Juegos</h3>
+            <h3>Api's externas: Datos</h3>
             <hr />
             <div className="row">
                 {info.map((item, id) => (
@@ -39,7 +36,7 @@ function ApisJuegos() {
             </div>
             <hr />
         </div>
-    )
+  )
 }
 
-export default ApisJuegos
+export default ApisDatos

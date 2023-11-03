@@ -71,6 +71,11 @@ import ApisCalendarios from "./pages/docApisExternas/ApisCalendarios";
 import ApisGoogle from "./pages/docApisExternas/ApisGoogle";
 import ApisJuegos from "./pages/docApisExternas/ApisJuegos";
 import ApisLenguajes from "./pages/docApisExternas/ApisLenguajes";
+import ApisComics from "./pages/docApisExternas/ApisComics";
+import ApisDatos from "./pages/docApisExternas/ApisDatos";
+import ApisClima from "./pages/docApisExternas/ApisClima";
+import ApiPeliculas from "./pages/docApisExternas/ApiPeliculas";
+import ApiMascotas from "./pages/docApisExternas/ApiMascotas";
 
 function App() {
   return (
@@ -146,6 +151,11 @@ function App() {
             <Route path="apisGoogle" element={<ApisGoogle />} /> 
             <Route path="apisGames" element={<ApisJuegos />} /> 
             <Route path="apisLenguaje" element={<ApisLenguajes />} /> 
+            <Route path="apisComics" element={<ApisComics />} /> 
+            <Route path="apisDatos" element={<ApisDatos />} /> 
+            <Route path="apisClima" element={<ApisClima />} /> 
+            <Route path="apisPeliculas" element={<ApiPeliculas />} /> 
+            <Route path="apisMascotas" element={<ApiMascotas />} /> 
 
             {/* Error */}
             <Route path="*" element={<NoPage />} />

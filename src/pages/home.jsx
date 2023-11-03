@@ -114,7 +114,7 @@ const Home = () => {
                     <hr />
                 </div>
 
-                <div className="row">
+                <div className="container row">
                     {tema.map((item, id) => (
                         <div className="col" key={id} style={{ marginBottom: "35px" }}>
                             <div className="card" style={{ width: "18rem" }}>
