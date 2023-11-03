@@ -68,6 +68,9 @@ import ApisNews from "./pages/docApisExternas/ApisNews";
 import ApiGraficas from "./pages/docApisExternas/ApiGraficas";
 import ApiIA from "./pages/docApisExternas/ApiIA";
 import ApisCalendarios from "./pages/docApisExternas/ApisCalendarios";
+import ApisGoogle from "./pages/docApisExternas/ApisGoogle";
+import ApisJuegos from "./pages/docApisExternas/ApisJuegos";
+import ApisLenguajes from "./pages/docApisExternas/ApisLenguajes";
 
 function App() {
   return (
@@ -140,6 +143,9 @@ function App() {
             <Route path="apisGraficas" element={<ApiGraficas />} /> 
             <Route path="apisIA" element={<ApiIA />} /> 
             <Route path="apisCalendarios" element={<ApisCalendarios />} /> 
+            <Route path="apisGoogle" element={<ApisGoogle />} /> 
+            <Route path="apisGames" element={<ApisJuegos />} /> 
+            <Route path="apisLenguaje" element={<ApisLenguajes />} /> 
 
             {/* Error */}
             <Route path="*" element={<NoPage />} />

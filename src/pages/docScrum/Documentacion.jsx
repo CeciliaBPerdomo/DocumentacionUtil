@@ -4,6 +4,12 @@ import { Link } from 'react-router-dom'
 function Documentacion() {
     let documentacion = [
         {
+            descripcion: "Metodología Agile",
+            web: "https://atenos.com/agile/que-es-una-metodologia-agile/#:~:text=3-%20Entrega%20valor%20con%20frecuencia,lograr%20entregas%20con%20mayor%20frecuencia.",
+            color: "danger"
+        },
+
+        {
             descripcion: "Principios del manifiesto ágil.",
             web: "https://agilemanifesto.org/iso/es/principles.html",
             color: "success"
@@ -33,11 +39,15 @@ function Documentacion() {
             color: "danger"
         },
 
-
-
         {
             "descripcion": "Criterios de aceptación",
             "web": "https://www.scrummanager.com/blog/2023/03/criterios-de-aceptacion-definicion-y-ejemplos/", 
+            color: "danger"
+        },
+
+        {
+            "descripcion": "Fichas ágiles",
+            "web": "https://www.autentia.com/wp-content/uploads/libros/Autentia-MazosAgile-v2.0.pdf", 
             color: "danger"
         },
     ]

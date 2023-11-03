@@ -49,7 +49,7 @@ function ApisCalendarios() {
     return (
         <div className='container'>
             <br />
-            <h3>Api's externas: 📰Noticias</h3>
+            <h3>Api's externas: 📅Calendarios</h3>
             <hr />
             <div className="row">
                 {info.map((item, id) => (

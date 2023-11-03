@@ -1,31 +1,31 @@
 import React from 'react'
 
 export default function Alertas() {
-    let alertas = [
-        {
-          libreria: "React-Toastify",
-          web: "https://www.npmjs.com/package/react-toastify",
-          descripcion: "React-Toastify allows you to add notifications to your app with ease. No more nonsense!",
-          git: "https://github.com/fkhadra/react-toastify",
-          color: "success"
-        },
-    
-        {
-          libreria: "Sweet Alerts2",
-          web: "https://github.com/enaqx/awesome-react",
-          descripcion: "A beatiful, responsive, customizable, accessible (wai-aria) replacement for JavaScripts popup boxes zero dependencias.",
-          git: "https://github.com/enaqx/awesome-react", 
-          color: "success"
-        },
-    ]
+  let alertas = [
+    {
+      libreria: "React-Toastify",
+      web: "https://www.npmjs.com/package/react-toastify",
+      descripcion: "React-Toastify allows you to add notifications to your app with ease. No more nonsense!",
+      git: "https://github.com/fkhadra/react-toastify",
+      color: "success"
+    },
 
- const abrirLink = (direccion) => {
+    {
+      libreria: "Sweet Alerts2",
+      web: "https://sweetalert2.github.io/",
+      descripcion: "A beatiful, responsive, customizable, accessible (wai-aria) replacement for JavaScripts popup boxes zero dependencias.",
+      git: "https://github.com/enaqx/awesome-react",
+      color: "success"
+    },
+  ]
+
+  const abrirLink = (direccion) => {
     window.location.replace(direccion)
   }
 
   return (
     <div className='container'>
-      
+
       <br />
       <h3>Alertas</h3>
       <hr />
@@ -36,18 +36,9 @@ export default function Alertas() {
             <div class="col-lg-3 col-sm-1 col-md-1" key={id}>
               <div class="alert alert-light" role="alert">
                 <p className='text-center'><b onClick={(e) => abrirLink(item.web)}>{item.libreria}</b>
-                {/* : {item.descripcion} */}
                 </p>
-                {/* <p className='text-start'>Web/npm: <b onClick={(e) => abrirLink(item.web)}>{item.web}</b></p>
-                <p className='text-start'>gitHub: <b onClick={(e) => abrirLink(item.git)}>{item.git}</b></p>
-                
-                {item.infoAdiccional ?
-                  <p className='text-start'>Más info: <b onClick={(e) => abrirLink(item.infoAdiccional)}>{item.infoAdiccional}</b></p>
-                  : null
-                } */}
-
               </div>
-              
+
             </div>
           ))}
         </div>

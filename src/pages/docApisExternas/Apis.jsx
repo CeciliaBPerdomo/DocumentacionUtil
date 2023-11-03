@@ -59,19 +59,19 @@ function Apis() {
 
         {
             descripcion: "Api de Google",
-            web: "/",
+            web: "/apisGoogle",
             color: "success"
         },
 
         {
             descripcion: "Juegos",
-            web: "/",
+            web: "/apisGames",
             color: "success"
         },
 
         {
             descripcion: "Lenguaje",
-            web: "/",
+            web: "/apisLenguaje",
             color: "success"
         },
 
