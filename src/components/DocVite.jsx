@@ -19,7 +19,7 @@ function DocVite() {
     <hr />
     <DocumentacionVite />
 
-<hr />
+    <hr />
     </div>
   )
 }
