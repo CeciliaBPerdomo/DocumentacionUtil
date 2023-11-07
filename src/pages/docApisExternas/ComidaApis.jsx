@@ -15,12 +15,18 @@ function ComidaApis() {
             web: "https://world.openfoodfacts.org/data",
             color: "light"
         },
+
+        {
+            descripcion: "Cocktail",
+            web: "https://thecocktaildb.com/api.php",
+            color: "light"
+        },
     ]
 
     return (
         <div className='container'>
             <br />
-            <h3>Api's externas: 🍎Comidas</h3>
+            <h3>Api's externas: 🍎Comidas & 🍾Bebidas</h3>
             <hr />
             <div className="row">
                 {info.map((item, id) => (

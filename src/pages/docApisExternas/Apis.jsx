@@ -22,7 +22,7 @@ function Apis() {
         },
 
         {
-            descripcion: "Comida",
+            descripcion: "Comida y bebidas",
             web: "/apisComida",
             color: "success"
         },

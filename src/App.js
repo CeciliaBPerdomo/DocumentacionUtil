@@ -77,6 +77,9 @@ import ApisClima from "./pages/docApisExternas/ApisClima";
 import ApiPeliculas from "./pages/docApisExternas/ApiPeliculas";
 import ApiMascotas from "./pages/docApisExternas/ApiMascotas";
 
+// Trabajos
+import DocTrabajos from "./components/DocTrabajos.jsx";
+
 function App() {
   return (
     <div>
@@ -156,6 +159,9 @@ function App() {
             <Route path="apisClima" element={<ApisClima />} /> 
             <Route path="apisPeliculas" element={<ApiPeliculas />} /> 
             <Route path="apisMascotas" element={<ApiMascotas />} /> 
+
+            {/* Trabajos */}
+            <Route path="trabajos" element={<DocTrabajos />} /> 
 
             {/* Error */}
             <Route path="*" element={<NoPage />} />

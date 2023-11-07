@@ -12,6 +12,7 @@ import tail from "../img/tailwindcssLogo.png"
 import foundation from "../img/logoFundation.png"
 import logoVite from "../img/ViteLogo.jpg"
 import logoApis from "../img/logoApisExternas.jpg"
+import trabajo from "../img/trabajo.jpg"
 
 import Footer from "./Footer";
 
@@ -101,6 +102,13 @@ const Home = () => {
             imagen: logoApis,
             descripcion: "Imagénes, pagos, noticias, música, juegos, calendarios, etc.",
             info: "/apisExternas"
+        },
+
+        {
+            tema: "Trabajos",
+            imagen: trabajo,
+            descripcion: "Información sobre dónde postularse",
+            info: "/trabajos"
         },
 
     ]
