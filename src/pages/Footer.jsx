@@ -5,7 +5,7 @@ function Footer() {
     return (
         <div className='d-flex justify-content-center'>
             <hr />
-            {/* <p>Cecilia Perdomo - 2023</p> */}
+       
         </div>
     )
 }

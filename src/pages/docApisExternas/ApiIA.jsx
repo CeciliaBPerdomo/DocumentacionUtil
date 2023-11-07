@@ -14,6 +14,12 @@ function ApiIA() {
             web: "https://developers.home.google.com/device-sdk?hl=es-419",
             color: "light"
         },
+
+        {
+            descripcion: "Future AI Lab",
+            web: "https://futureailab.com/",
+            color: "light"
+        },
     ]
 
     return (
