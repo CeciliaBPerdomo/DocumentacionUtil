@@ -13,6 +13,7 @@ import foundation from "../img/logoFundation.png"
 import logoVite from "../img/ViteLogo.jpg"
 import logoApis from "../img/logoApisExternas.jpg"
 import trabajo from "../img/trabajo.jpg"
+import logoPython from "../img/logopython.jpg"
 
 import Footer from "./Footer";
 
@@ -21,17 +22,17 @@ import Footer from "./Footer";
 const Home = () => {
     let tema = [
         {
-            tema: "Diseño UX/UI",
-            imagen: logoUXUI,
-            descripcion: "Ideas, Prototipos, Iconos, Colores, Apps, News",
-            info: "/ux_ui"
-        },
-
-        {
             tema: "Scrum y metodologías ágiles",
             imagen: logoScrum,
             descripcion: "Documentación útil, certificaciones",
             info: "/docScrum"
+        },
+
+        {
+            tema: "Diseño UX/UI",
+            imagen: logoUXUI,
+            descripcion: "Ideas, Prototipos, Iconos, Colores, Apps, News",
+            info: "/ux_ui"
         },
 
         {
@@ -98,6 +99,13 @@ const Home = () => {
         },
 
         {
+            tema: "Python",
+            imagen: logoPython,
+            descripcion: "Documentación, cursos, juegos",
+            info: "/python"
+        },
+
+        {
             tema: "Api's Externas",
             imagen: logoApis,
             descripcion: "Imagénes, pagos, noticias, música, juegos, calendarios, etc.",
@@ -117,17 +125,22 @@ const Home = () => {
         <>
             <br />
             <div className="container text-center">
-                <div>
-                    <img src={caratula} alt="Documentación útil" style={{ width: "45%" }} />
+                <div className="row">
+                    <div className="col">
+                        <h3 className="position-relative top-50 start-0">Documentación útil</h3>
+                    </div>
+                    <div className="col">
+                        <img src={caratula} alt="Documentación útil" />
+                    </div>
                     <hr />
                 </div>
 
-                <div className="container row">
+                <div className="row text-center">
                     {tema.map((item, id) => (
-                        <div className="col" key={id} style={{ marginBottom: "35px" }}>
+                        <div className="col d-flex justify-content-center" key={id} style={{ marginBottom: "35px" }}>
                             <div className="card" style={{ width: "18rem" }}>
-                                <img src={item.imagen} 
-                                className="card-img-top" alt={item.tema} />
+                                <img src={item.imagen}
+                                    className="card-img-top" alt={item.tema} />
                                 <div className="card-body" style={{ height: "85px" }}>
                                     <h5 className="card-title">{item.tema}</h5>
                                     <p className="card-text">{item.descripcion}</p>
@@ -143,8 +156,8 @@ const Home = () => {
                             </div>
                         </div>
                     ))}
-                </div>
 
+                </div>
                 <Footer />
             </div>
         </>

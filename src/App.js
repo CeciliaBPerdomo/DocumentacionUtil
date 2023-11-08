@@ -79,6 +79,7 @@ import ApiMascotas from "./pages/docApisExternas/ApiMascotas";
 
 // Trabajos
 import DocTrabajos from "./components/DocTrabajos.jsx";
+import DocPython from "./components/DocPython.jsx";
 
 function App() {
   return (
@@ -162,6 +163,9 @@ function App() {
 
             {/* Trabajos */}
             <Route path="trabajos" element={<DocTrabajos />} /> 
+
+            {/* Python */}
+            <Route path="python" element={<DocPython />} /> 
 
             {/* Error */}
             <Route path="*" element={<NoPage />} />
