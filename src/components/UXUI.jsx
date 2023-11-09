@@ -58,6 +58,15 @@ function UXUI() {
             color: "danger"
         },
     ]
+
+    let cursos = [
+        {
+            descripcion: "UX/IO Open",
+            ruta: "https://www.uxuio",
+            color: "success"
+        },
+    ]
+
     return (
         <div className="container">
             <br />
@@ -69,7 +78,7 @@ function UXUI() {
             <br />
 
             {/* Frase */}
-            <div className="alert alert-success text-center" role="alert">
+            <div className="alert alert-warning text-center" role="alert">
                 <h3>El diseño es el embajador silencioso de tu marca</h3>
             </div>
 
@@ -83,6 +92,25 @@ function UXUI() {
                 {info.map((item, id) => (
                     <div className="col-lg-3 col-sm-1 col-md-1" key={id}>
                         <div className="alert alert-light" 
+                        style={{ color: "black"}}>
+                            <Link to={item.ruta} style={{ textDecoration: "none", color: "black" }}>
+                                <p className='text-center'>
+                                    {item.descripcion} </p>
+                            </Link>
+                        </div>
+                    </div>
+                ))}
+            </div>
+
+             {/* Cursos */}
+             <br />
+            <h3>Cursos</h3>
+            <hr />
+
+            <div className="row">
+                {cursos.map((item, id) => (
+                    <div className="col-lg-3 col-sm-1 col-md-1" key={id}>
+                        <div className={"alert alert-" + item.color} 
                         style={{ color: "black"}}>
                             <Link to={item.ruta} style={{ textDecoration: "none", color: "black" }}>
                                 <p className='text-center'>

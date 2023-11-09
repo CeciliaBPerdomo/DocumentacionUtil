@@ -14,6 +14,10 @@ import logoVite from "../img/ViteLogo.jpg"
 import logoApis from "../img/logoApisExternas.jpg"
 import trabajo from "../img/trabajo.jpg"
 import logoPython from "../img/logopython.jpg"
+import logoFull from "../img/full-stack-developer.jpg"
+import logoAWS from "../img/awslogo.png"
+import logoReactNative from "../img/native.png"
+
 
 import Footer from "./Footer";
 
@@ -85,6 +89,14 @@ const Home = () => {
         },
 
         {
+            tema: "React.Native",
+            imagen: logoReactNative,
+            descripcion: "Documentación útil, cursos, librerias, challenges",
+            info: "/react_native"
+        },
+
+
+        {
             tema: "Vue.js",
             imagen: logoVue,
             descripcion: "Documentación útil, cursos, librerias, challenges",
@@ -110,6 +122,20 @@ const Home = () => {
             imagen: logoApis,
             descripcion: "Imagénes, pagos, noticias, música, juegos, calendarios, etc.",
             info: "/apisExternas"
+        },
+
+        {
+            tema: "AWS",
+            imagen: logoAWS,
+            descripcion: "Documentación, cursos",
+            info: "/doc_aws"
+        },
+
+        {
+            tema: "Full Stack",
+            imagen: logoFull,
+            descripcion: "Documentación, cursos, juegos",
+            info: "/full"
         },
 
         {

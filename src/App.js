@@ -79,7 +79,16 @@ import ApiMascotas from "./pages/docApisExternas/ApiMascotas";
 
 // Trabajos
 import DocTrabajos from "./components/DocTrabajos.jsx";
+
+// Python
 import DocPython from "./components/DocPython.jsx";
+
+// Full Stack
+import DocFull from "./components/DocFull.jsx";
+
+// AWS
+import DOCAWS from "./components/DOCAWS.jsx";
+import DocNative from "./components/DocNative.jsx";
 
 function App() {
   return (
@@ -166,6 +175,15 @@ function App() {
 
             {/* Python */}
             <Route path="python" element={<DocPython />} /> 
+
+            {/* Full Stack */}
+            <Route path="full" element={<DocFull />} /> 
+
+            {/* AWS */}
+            <Route path="doc_aws" element={<DOCAWS />} /> 
+
+            {/* React Native */}
+            <Route path="react_native" element={<DocNative />} /> 
 
             {/* Error */}
             <Route path="*" element={<NoPage />} />

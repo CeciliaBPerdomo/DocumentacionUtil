@@ -41,7 +41,7 @@ function DocPython() {
 
             <br />
             {/* Documentacion */}
-            <h3>Documentación oficial</h3>
+            <h3>Documentación</h3>
             <hr />
             <div className="row">
                 {info.map((item, id) => (
