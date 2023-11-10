@@ -8,7 +8,7 @@ const Layout = () => {
                 <div className="container-fluid" style={{color: "white"}}>
                     <h3>
                         <Link to="/" style={{textDecoration: "none", color: "purple"}}>         
-                            <img src={avatar} alt="" style={{width: "50px"}}/> Documentación útil
+                            <img src={avatar} alt="Cecilia Perdomo" style={{width: "50px"}} /> Recursos útiles
                         </Link>
                     </h3>
                 </div>

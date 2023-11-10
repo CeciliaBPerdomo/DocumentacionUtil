@@ -7,7 +7,7 @@ import logoJavaScript from "../img/logoJavaScript.jpg"
 import logoScrum from "../img/logoScrum.jpeg"
 import logoUXUI from "../img/logoUXUI.png"
 import logoVue from "../img/logoVue.jpeg"
-import caratula from "../img/caratula.png"
+// import caratula from "../img/caratula.png"
 import tail from "../img/tailwindcssLogo.png"
 import foundation from "../img/logoFundation.png"
 import logoVite from "../img/ViteLogo.jpg"
@@ -158,7 +158,7 @@ const Home = () => {
         <>
             <br />
             <div className="container text-center">
-                <div className="row">
+                {/* <div className="row">
                     <div className="col">
                         <h3 className="position-relative top-50 start-0">Documentación útil</h3>
                     </div>
@@ -166,7 +166,7 @@ const Home = () => {
                         <img src={caratula} alt="Documentación útil" />
                     </div>
                     <hr />
-                </div>
+                </div> */}
 
                 <div className="row text-center">
                     {tema.map((item, id) => (
