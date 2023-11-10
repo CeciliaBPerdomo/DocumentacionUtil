@@ -25,11 +25,6 @@ function DOCJavaScript() {
             <Cursos />
 
             <br />
-            <h3>Challenges</h3>
-            <hr />
-            <Challenges />
-
-            <br />
             <h3>Librerias</h3>
             <hr />
             <Libreriras />
@@ -38,6 +33,11 @@ function DOCJavaScript() {
             <h3>Patterns</h3>
             <hr />
             <Patterns />
+
+            <br />
+            <h3>Challenges</h3>
+            <hr />
+            <Challenges />
 
             <br />
             <h3>Juegos</h3>

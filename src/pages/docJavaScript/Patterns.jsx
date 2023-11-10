@@ -6,7 +6,7 @@ function Patterns() {
         {
             descripcion: "Patterns",
             web: "https://www.patterns.dev/",
-            color: "primary"
+            color: "danger"
         }
     ]
     

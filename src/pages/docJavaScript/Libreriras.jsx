@@ -6,13 +6,13 @@ function Libreriras() {
         {
             descripcion: "Gráficas",
             web: "/graficas_js",
-            color: "danger"
+            color: "success"
         },
 
         {
             descripcion: "Axios",
             web: "https://axios-http.com/docs/intro",
-            color: "danger"
+            color: "success"
         },
     ]
 

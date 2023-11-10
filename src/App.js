@@ -88,7 +88,12 @@ import DocFull from "./components/DocFull.jsx";
 
 // AWS
 import DOCAWS from "./components/DOCAWS.jsx";
+
+// React Native
 import DocNative from "./components/DocNative.jsx";
+
+// Challenges
+import Challenges from "./components/Challenges.jsx";
 
 function App() {
   return (
@@ -184,6 +189,9 @@ function App() {
 
             {/* React Native */}
             <Route path="react_native" element={<DocNative />} /> 
+
+            {/* Challenges */}
+            <Route path="challenges" element={<Challenges />} /> 
 
             {/* Error */}
             <Route path="*" element={<NoPage />} />
