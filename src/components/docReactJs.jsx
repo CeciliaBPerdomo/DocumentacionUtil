@@ -6,6 +6,7 @@ import Cursos from "../pages/docReactJS/Cursos.jsx";
 import ReactPython from "../pages/docReactJS/ReactPython.jsx";
 import Librerias from "../pages/docReactJS/Librerias.jsx";
 import ReactRouter from "../pages/docReactJS/ReactRouter.jsx";
+import Documentacion from "../pages/docReactJS/Documentacion.jsx";
 
 const DocReactJs = () => {
     return (
@@ -16,23 +17,10 @@ const DocReactJs = () => {
             </div>
             <br />
 
-            {/* Documentacion oficial */}
-            <h3>Documentación oficial</h3>
+            {/* Documentacion */}
+            <h3>Documentación</h3>
             <hr />
-            <div className="card text-bg-light mb-3" style={{ width: "540px" }}>
-                <div className="card-header">React.dev</div>
-                <div className="card-body">
-                    <h5 className="card-title">https://es.react.dev/</h5>
-                    <p className="card-text">React te permite construir interfaces de usuario a partir de piezas individuales llamadas componentes. </p>
-                    <p className="card-text">Crea tus propios componentes de React como Thumbnail, LikeButton, y Video. </p>
-                    <p className="card-text">Luego combínalos para formar pantallas, páginas y aplicaciones.</p>
-                    <hr />
-
-                    <button className="btn btn-outline-dark float-end" onClick={() => window.location.replace("https://es.react.dev/")}>
-                        Ir a la web
-                    </button>
-                </div>
-            </div>
+            <Documentacion />
 
             <br />
             <h3>React Router</h3>

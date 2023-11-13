@@ -18,6 +18,7 @@ import logoFull from "../img/full-stack-developer.jpg"
 import logoAWS from "../img/awslogo.png"
 import logoReactNative from "../img/native.png"
 import logoChallenge from "../img/challenge.jpg"
+import logoNode from "../img/nodejs2.jpg"
 
 import Footer from "./Footer";
 
@@ -110,6 +111,13 @@ const Home = () => {
             info: "/vite"
         },
 
+
+{
+    tema: "Node.js",
+    imagen: logoNode,
+    descripcion: "Documentación, cursos, juegos",
+    info: "/nodejs"
+},
         {
             tema: "Python",
             imagen: logoPython,

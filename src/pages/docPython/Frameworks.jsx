@@ -1,12 +1,18 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-function Juegos() {
+function Frameworks() {
     let info = [
         {
-            descripcion: "Codedex",
-            web: "https://www.codedex.io/python",
-            color: "primary"
+            descripcion: "Flask-SQLAlchemy",
+            web: "https://flask-sqlalchemy.palletsprojects.com/en/3.0.x/",
+            color: "danger"
+        },
+
+        {
+            descripcion: "Django",
+            web: "https://www.djangoproject.com/",
+            color: "danger"
         },
     ]
 
@@ -29,4 +35,4 @@ function Juegos() {
     )
 }
 
-export default Juegos
+export default Frameworks

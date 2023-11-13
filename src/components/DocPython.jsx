@@ -6,6 +6,7 @@ import logo from "../img/Python-Logo.png"
 import ruta from "../img/bestpython.jpg"
 import Cursos from '../pages/docPython/Cursos'
 import Juegos from '../pages/docPython/Juegos'
+import Frameworks from '../pages/docPython/Frameworks'
 
 function DocPython() {
     let info = [
@@ -62,6 +63,12 @@ function DocPython() {
             <h3>Cursos</h3>
             <hr />
             <Cursos />
+
+            <br />
+            {/* Frameworks */}
+            <h3>Frameworks</h3>
+            <hr />
+            <Frameworks />
 
             <br />
             {/* Juegos */}

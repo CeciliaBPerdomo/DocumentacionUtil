@@ -94,6 +94,7 @@ import DocNative from "./components/DocNative.jsx";
 
 // Challenges
 import Challenges from "./components/Challenges.jsx";
+import DocNode from "./components/DocNode.jsx";
 
 function App() {
   return (
@@ -192,6 +193,9 @@ function App() {
 
             {/* Challenges */}
             <Route path="challenges" element={<Challenges />} /> 
+
+            {/* Node.js */}
+            <Route path="nodejs" element={<DocNode />} /> 
 
             {/* Error */}
             <Route path="*" element={<NoPage />} />

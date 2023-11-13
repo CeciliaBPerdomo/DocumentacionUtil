@@ -1,15 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-function Juegos() {
+function Documentacion() {
     let info = [
         {
-            descripcion: "Codedex",
-            web: "https://www.codedex.io/python",
-            color: "primary"
+            descripcion: "Documentación oficial",
+            web: "https://es.react.dev/",
+            color: "light"
         },
     ]
-
     return (
         <div className='container'>
             <div className="row">
@@ -29,4 +28,4 @@ function Juegos() {
     )
 }
 
-export default Juegos
+export default Documentacion
