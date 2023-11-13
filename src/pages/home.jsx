@@ -19,6 +19,7 @@ import logoAWS from "../img/awslogo.png"
 import logoReactNative from "../img/native.png"
 import logoChallenge from "../img/challenge.jpg"
 import logoNode from "../img/nodejs2.jpg"
+import logoDeploy from "../img/deploy.png"
 
 import Footer from "./Footer";
 
@@ -151,6 +152,13 @@ const Home = () => {
             imagen: logoFull,
             descripcion: "Documentación, cursos, juegos",
             info: "/full"
+        },
+
+        {
+            tema: "Deploy",
+            imagen: logoDeploy,
+            descripcion: "Documentación, dominios, hostings",
+            info: "/deploy"
         },
 
         {
