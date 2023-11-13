@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 // Imagenes
 import logo from "../img/Python-Logo.png"
-import ruta from "../img/bestpython.jpg"
+// import ruta from "../img/bestpython.jpg"
 import Cursos from '../pages/docPython/Cursos'
 import Juegos from '../pages/docPython/Juegos'
 import Frameworks from '../pages/docPython/Frameworks'
@@ -36,9 +36,9 @@ function DocPython() {
             </div>
             <br />
 
-            <div className='d-flex justify-content-center'>
+            {/* <div className='d-flex justify-content-center'>
                 <img src={ruta} alt="ruta" />
-            </div>
+            </div> */}
 
             <br />
             {/* Documentacion */}

@@ -94,8 +94,13 @@ import DocNative from "./components/DocNative.jsx";
 
 // Challenges
 import Challenges from "./components/Challenges.jsx";
+
+// Node.js
 import DocNode from "./components/DocNode.jsx";
+
+// Deploy
 import DOCDeploy from "./components/DOCDeploy.jsx";
+import Heroku from "./pages/docDeploy/Heroku.jsx";
 
 function App() {
   return (
@@ -200,6 +205,7 @@ function App() {
 
             {/* Deploy */}
             <Route path="deploy" element={<DOCDeploy />} /> 
+            <Route path="heroku" element={<Heroku />} /> 
 
             {/* Error */}
             <Route path="*" element={<NoPage />} />

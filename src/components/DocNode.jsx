@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from "../img/Node.js_logo_2015.png"
-import ruta from "../img/nodeis.jpg"
+// import ruta from "../img/nodeis.jpg"
 import Documentacion from '../pages/docNode/Documentacion'
 import Challenges from '../pages/docNode/Challenges'
 
@@ -16,9 +16,9 @@ function DocNode() {
                 </h2>
             </div>
 
-            <div className='d-flex justify-content-start'>
+            {/* <div className='d-flex justify-content-start'>
                 <img src={ruta} alt="ruta" style={{ width: "550px" }} />
-            </div>
+            </div> */}
 
             <br />
             {/* Documentacion */}

@@ -1,7 +1,10 @@
 import React from 'react'
 import logo from "../img/descarga.png"
+import Dominios from '../pages/docDeploy/Dominios'
+import Hostings from '../pages/docDeploy/Hostings'
 
 function DOCDeploy() {
+    
     return (
         <div className="container">
             <br />
@@ -39,9 +42,19 @@ function DOCDeploy() {
                     </li>
                 </ol>
             </div>
+            <hr /> 
 
+            {/* Dominios */}
+            <br />
+            <h3>Dominios</h3>
             <hr />
+            <Dominios />
 
+            {/* Hostings */}
+            <br />
+            <h3>Hostings</h3>
+            <hr />
+            <Hostings />
 
         </div>
     )
