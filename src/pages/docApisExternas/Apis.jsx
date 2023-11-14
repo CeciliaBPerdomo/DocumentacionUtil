@@ -16,7 +16,7 @@ function Apis() {
         },
 
         {
-            descripcion: "Cómics",
+            descripcion: "Cómics y Libros",
             web: "/apisComics",
             color: "success"
         },
@@ -36,6 +36,12 @@ function Apis() {
         {
             descripcion: "Envío de emails",
             web: "/apisMails",
+            color: "success"
+        },
+
+        {
+            descripcion: "Estilo de vida",
+            web: "/apisEstilo",
             color: "success"
         },
 
@@ -101,7 +107,7 @@ function Apis() {
         },
 
         {
-            descripcion: "Películas",
+            descripcion: "Películas & Televisión",
             web: "/apisPeliculas",
             color: "success"
         },     

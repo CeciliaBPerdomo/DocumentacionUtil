@@ -6,14 +6,14 @@ function HerramientasScrum() {
         {
             descripcion: "Trello",
             web: "https://trello.com/es",
-            color: "primary"
-        }, 
+            color: "warning"
+        },
 
         {
             descripcion: "Jira",
             web: "https://www.atlassian.com/es/software/jira",
-            color: "primary"
-        }, 
+            color: "warning"
+        },
     ]
     return (
         <div className="row">
@@ -22,7 +22,9 @@ function HerramientasScrum() {
                     <div className={"alert alert-" + item.color} role="alert">
                         <Link to={item.web} style={{ textDecoration: "none", color: "black" }}>
                             <p className='text-center'>
-                                {item.descripcion}
+                                <b>
+                                    {item.descripcion}
+                                </b>
                             </p>
                         </Link>
                     </div>

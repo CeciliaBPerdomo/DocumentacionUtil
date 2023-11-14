@@ -5,6 +5,7 @@ import Documentacion from '../pages/docScrum/Documentacion.jsx'
 import Certificaciones from '../pages/docScrum/Certificaciones.jsx'
 import HerramientasScrum from '../pages/docScrum/HerramientasScrum'
 import HistoriasDeUsuario from '../pages/docScrum/HistoriasDeUsuario'
+import Cursos from '../pages/docScrum/Cursos.jsx'
 
 function DOCScrum() {
     return (
@@ -19,6 +20,13 @@ function DOCScrum() {
             <h3>Documentación</h3>
             <hr />
             <Documentacion />
+            <br />
+
+            {/* Cursos */}
+            <h3>Cursos</h3>
+            <hr />
+            <Cursos />
+            <br />
 
             {/* Historias de usuarios */}
             <h3>Historias de usuarios</h3>

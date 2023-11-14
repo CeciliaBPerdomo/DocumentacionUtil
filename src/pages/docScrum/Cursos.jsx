@@ -1,29 +1,28 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-function HistoriasDeUsuario() {
-    let documentacion = [
-        // {
-        //     descripcion: "Principios del manifiesto ágil.",
-        //     web: "https://agilemanifesto.org/iso/es/principles.html",
-        //     color: "success"
-        // },
+function Cursos() {
+  let documentacion = [
+    {
+        descripcion: "Introducción a Agile y SCRUM",
+        web: "hhttps://formacion.tutellus.com/tecnologia/desarrollo-web/introduccion-a-agile-y-scrum-2510?affref=d5a608f252ca4c778d20497fb6acad4d",
+        color: "success"
+    },
 
-        {
-            descripcion: "Qué no debería tener una HU",
-            web: "https://www.pragma.co/es/blog/scrum-que-no-deberia-tener-una-historia-de-usuario",
-            color: "danger"
-        },
+     // {
+    //     descripcion: "Principios del manifiesto ágil.",
+    //     web: "https://agilemanifesto.org/iso/es/principles.html",
+    //     color: "success"
+    // },
+  ]
 
-
-    ]
-    return (
-        <div className="container text-center">
+  return (
+    <div className="container text-center">
             <div className="row">
                 {documentacion.map((item, id) => (
                     <div className="col-lg-3 col-sm-1 col-md-1" key={id}>
                         <div className={"alert alert-" + item.color} role="alert">
-                            <Link to={item.web} style={{ textDecoration: "none", color: "black" }}>
+                            <Link to={item.web} style={{ textDecoration: "none", "color": "black" }}>
                                 <p>
                                     <b>
                                         {item.descripcion}
@@ -35,7 +34,7 @@ function HistoriasDeUsuario() {
                 ))}
             </div>
         </div>
-    )
+  )
 }
 
-export default HistoriasDeUsuario
+export default Cursos

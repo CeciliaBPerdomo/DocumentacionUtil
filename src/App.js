@@ -101,6 +101,7 @@ import DocNode from "./components/DocNode.jsx";
 // Deploy
 import DOCDeploy from "./components/DOCDeploy.jsx";
 import Heroku from "./pages/docDeploy/Heroku.jsx";
+import ApiEstilo from "./pages/docApisExternas/ApiEstilo.jsx";
 
 function App() {
   return (
@@ -181,6 +182,7 @@ function App() {
             <Route path="apisClima" element={<ApisClima />} /> 
             <Route path="apisPeliculas" element={<ApiPeliculas />} /> 
             <Route path="apisMascotas" element={<ApiMascotas />} /> 
+            <Route path="apisEstilo" element={<ApiEstilo />} /> 
 
             {/* Trabajos */}
             <Route path="trabajos" element={<DocTrabajos />} /> 

@@ -1,32 +1,20 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-function MusicaApis() {
+
+function ApiEstilo() {
     let info = [
         {
-            descripcion: "Spotify",
-            web: "https://developer.spotify.com/documentation/web-api",
+            descripcion: "Make-Up",
+            web: "http://makeup-api.herokuapp.com/",
             color: "light"
         },
-
-        // {
-        //     descripcion: "Dall-e-Api",
-        //     web: "https://openai.com/blog/dall-e-api-now-available-in-public-beta",
-        //     color: "light"
-        // },
-
-        {
-            descripcion: "Music Brainz",
-            web: "https://musicbrainz.org/doc/MusicBrainz_Documentation",
-            color: "light"
-        },
-
     ]
-
+    
     return (
         <div className='container'>
             <br />
-            <h3>Api's externas: 🎶Música</h3>
+            <h3>Api's externas: 💄Estilo de vida</h3>
             <hr />
             <div className="row">
                 {info.map((item, id) => (
@@ -43,9 +31,10 @@ function MusicaApis() {
                     </div>
                 ))}
             </div>
+
             <hr />
         </div>
     )
 }
 
-export default MusicaApis
+export default ApiEstilo

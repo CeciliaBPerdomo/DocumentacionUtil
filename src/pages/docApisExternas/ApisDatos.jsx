@@ -8,16 +8,16 @@ function ApisDatos() {
             web: "https://jsonplaceholder.typicode.com/guide/",
             color: "light"
         },
-        
-        // {
-        //     descripcion: "Marvel",
-        //     web: "https://developer.marvel.com/",
-        //     color: "light"
-        // },
+
+        {
+            descripcion: "Predict the age of a name",
+            web: "https://agify.io/",
+            color: "light"
+        },
     ]
 
-  return (
-    <div className='container'>
+    return (
+        <div className='container'>
             <br />
             <h3>Api's externas: Datos</h3>
             <hr />
@@ -27,7 +27,9 @@ function ApisDatos() {
                         <div className={"alert alert-" + item.color} role="alert">
                             <Link to={item.web} style={{ textDecoration: "none", color: "black" }}>
                                 <p className='text-center'>
-                                    {item.descripcion}
+                                    <b>
+                                        {item.descripcion}
+                                    </b>
                                 </p>
                             </Link>
                         </div>
@@ -36,7 +38,7 @@ function ApisDatos() {
             </div>
             <hr />
         </div>
-  )
+    )
 }
 
 export default ApisDatos
