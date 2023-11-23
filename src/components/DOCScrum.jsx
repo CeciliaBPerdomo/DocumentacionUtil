@@ -17,7 +17,7 @@ function DOCScrum() {
             <br />
 
             {/* Documentacion */}
-            <h3>Documentación</h3>
+            <h3>Metodologías Ágiles</h3>
             <hr />
             <Documentacion />
             <br />

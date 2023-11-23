@@ -4,16 +4,30 @@ import { Link } from 'react-router-dom'
 function Certificaciones() {
     let certificaciones = [
         {
-            descripcion: "Scrum.org",
-            web: "https://www.scrum.org/professional-scrum-certifications",
-            color: "primary"
+            "descripcion": "Scrum.org",
+            "web": "https://www.scrum.org/professional-scrum-certifications",
+            "color": "warning"
         },
 
         {
-            descripcion: "CertiProf - Professional Knowledge",
-            web: "https://certiprof.com/pages/scrum-foundation-certificate-free",
-            color: "primary"
-        }
+            "descripcion": "CertiProf - Professional Knowledge",
+            "web": "https://certiprof.com/pages/scrum-foundation-certificate-free",
+            "color": "warning"
+        }, 
+
+        {
+            "descripcion": "Scrum Alliance",
+            "web": "https://www.scrumalliance.org/",
+            "color": "warning"
+        }, 
+
+        {
+            "descripcion": "Project Managment Institute",
+            "web": "https://www.pmi.org/",
+            "color": "warning"
+        }, 
+
+
     ]
 
     return (

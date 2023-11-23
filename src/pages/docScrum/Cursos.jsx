@@ -6,13 +6,13 @@ function Cursos() {
     {
         descripcion: "Introducción a Agile y SCRUM",
         web: "hhttps://formacion.tutellus.com/tecnologia/desarrollo-web/introduccion-a-agile-y-scrum-2510?affref=d5a608f252ca4c778d20497fb6acad4d",
-        color: "success"
+        color: "danger"
     },
 
      // {
     //     descripcion: "Principios del manifiesto ágil.",
     //     web: "https://agilemanifesto.org/iso/es/principles.html",
-    //     color: "success"
+    //     color: "danger"
     // },
   ]
 

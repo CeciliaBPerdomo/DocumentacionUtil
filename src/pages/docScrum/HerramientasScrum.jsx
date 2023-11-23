@@ -6,14 +6,27 @@ function HerramientasScrum() {
         {
             descripcion: "Trello",
             web: "https://trello.com/es",
-            color: "warning"
+            color: "info"
         },
 
         {
             descripcion: "Jira",
             web: "https://www.atlassian.com/es/software/jira",
-            color: "warning"
+            color: "info"
         },
+
+        {
+            descripcion: "Asana",
+            web: "https://asana.com/es/templates/use-case/agile",
+            color: "info"
+        },
+        {
+            descripcion: "Bitrix 24",
+            web: "https://www.bitrix24.es/",
+            color: "info"
+        },
+       
+       
     ]
     return (
         <div className="row">

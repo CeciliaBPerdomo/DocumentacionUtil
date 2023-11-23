@@ -12,7 +12,7 @@ function HistoriasDeUsuario() {
         {
             descripcion: "Qué no debería tener una HU",
             web: "https://www.pragma.co/es/blog/scrum-que-no-deberia-tener-una-historia-de-usuario",
-            color: "danger"
+            color: "primary"
         },
 
 
