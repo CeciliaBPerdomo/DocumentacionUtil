@@ -102,6 +102,7 @@ import DocNode from "./components/DocNode.jsx";
 import DOCDeploy from "./components/DOCDeploy.jsx";
 import Heroku from "./pages/docDeploy/Heroku.jsx";
 import ApiEstilo from "./pages/docApisExternas/ApiEstilo.jsx";
+import Management from "./pages/docReactJS/Management.jsx";
 
 function App() {
   return (
@@ -121,7 +122,8 @@ function App() {
             <Route path="react-router" element={<ReactRouterDocOficial />} />            
             <Route path="validacion_formularios" element={<ValidacionFormularios />} />            
             <Route path="animaciones" element={<Animaciones />} />            
-            <Route path="pdf" element={<PDF />} />        
+            <Route path="pdf" element={<PDF />} />   
+            <Route path="management" element={<Management />} />     
 
             {/* HTML*/}
             <Route path="docHTML" element={<DOCHTML />} />        

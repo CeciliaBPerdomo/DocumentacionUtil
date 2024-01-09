@@ -1,42 +1,38 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-function Frameworks() {
+function Management() {
     let info = [
         {
-            descripcion: "Flask-SQLAlchemy",
-            web: "https://flask-sqlalchemy.palletsprojects.com/en/3.0.x/",
-            color: "danger"
+            descripcion: "Zustand",
+            web: "https://docs.pmnd.rs/zustand/getting-started/introduction",
+            color: "success"
         },
 
         {
-            descripcion: "Django",
-            web: "https://www.djangoproject.com/",
-            color: "danger"
+            descripcion: "Jotai",
+            web: "https://jotai.org/",
+            color: "success"
         },
 
         {
-            descripcion: "Jinja",
-            web: "https://jinja.palletsprojects.com/en/3.1.x/",
-            color: "danger"
-        },
-
-        {
-            descripcion: "Flask WTF",
-            web: "https://flask-wtf.readthedocs.io/en/1.2.x/",
-            color: "danger"
+            descripcion: "TanStack",
+            web: "https://tanstack.com/query/v3/",
+            color: "success"
         },
     ]
-
     return (
         <div className='container'>
+            <br />
+            <h3>State Management</h3>
+            <hr />
             <div className="row">
                 {info.map((item, id) => (
                     <div className="col-lg-3 col-sm-1 col-md-1" key={id}>
                         <div className={"alert alert-" + item.color} role="alert">
                             <Link to={item.web} style={{ textDecoration: "none", color: "black" }}>
                                 <p className='text-center'>
-                                    <b>{item.descripcion}</b>
+                                    {item.descripcion}
                                 </p>
                             </Link>
                         </div>
@@ -47,4 +43,4 @@ function Frameworks() {
     )
 }
 
-export default Frameworks
+export default Management

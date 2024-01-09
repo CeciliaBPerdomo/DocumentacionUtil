@@ -12,9 +12,11 @@ function Librerias() {
         { nombre: "Validación de formularios", direccion: "/validacion_formularios" },
         { nombre: "Animaciones", direccion: "/animaciones" },
         { nombre: "PDF", direccion: "/pdf" },
-        // {nombre: "", direccion: ""},
+        {nombre: "State Management", direccion: "/management"},
         // {nombre: "", direccion: ""},
     ]
+
+
 
     return (
         <div>
