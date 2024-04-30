@@ -20,6 +20,7 @@ import logoReactNative from "../img/native.png"
 import logoChallenge from "../img/challenge.jpg"
 import logoNode from "../img/nodejs2.jpg"
 import logoDeploy from "../img/deploy.png"
+import next from "../img/next.png"
 
 import Footer from "./Footer";
 
@@ -112,13 +113,19 @@ const Home = () => {
             info: "/vite"
         },
 
+        {
+            tema: "Next.js",
+            imagen: next,
+            descripcion: "Documentación",
+            info: "/next"
+        },
 
-{
-    tema: "Node.js",
-    imagen: logoNode,
-    descripcion: "Documentación, cursos, juegos",
-    info: "/nodejs"
-},
+        {
+            tema: "Node.js",
+            imagen: logoNode,
+            descripcion: "Documentación, cursos, juegos",
+            info: "/nodejs"
+        },
         {
             tema: "Python",
             imagen: logoPython,

@@ -103,6 +103,7 @@ import DOCDeploy from "./components/DOCDeploy.jsx";
 import Heroku from "./pages/docDeploy/Heroku.jsx";
 import ApiEstilo from "./pages/docApisExternas/ApiEstilo.jsx";
 import Management from "./pages/docReactJS/Management.jsx";
+import Next from "./components/Next.jsx";
 
 function App() {
   return (
@@ -206,6 +207,9 @@ function App() {
 
             {/* Node.js */}
             <Route path="nodejs" element={<DocNode />} /> 
+
+             {/* Next.js */}
+             <Route path="next" element={<Next />} /> 
 
             {/* Deploy */}
             <Route path="deploy" element={<DOCDeploy />} /> 
