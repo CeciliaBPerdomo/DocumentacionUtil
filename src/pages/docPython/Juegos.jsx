@@ -8,6 +8,30 @@ function Juegos() {
             web: "https://www.codedex.io/python",
             color: "primary"
         },
+        
+        // {
+        //     descripcion: "CodeCombat",
+        //     web: "https://codecombat.com/",
+        //     color: "primary"
+        // },
+
+        {
+            descripcion: "Compute It",
+            web: "https://compute-it.toxicode.fr/",
+            color: "primary"
+        },
+
+        {
+            descripcion: "Checkio",
+            web: "https://py.checkio.org/",
+            color: "primary"
+        },
+
+        {
+            descripcion: "CodeCombat",
+            web: "https://codecombat.com/",
+            color: "primary"
+        },	
     ]
 
     return (
